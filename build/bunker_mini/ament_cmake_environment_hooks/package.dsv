@@ -1,0 +1,4 @@
+source;share/bunker_mini/local_setup.bash
+source;share/bunker_mini/local_setup.dsv
+source;share/bunker_mini/local_setup.sh
+source;share/bunker_mini/local_setup.zsh

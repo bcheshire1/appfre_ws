@@ -1,0 +1,4 @@
+Invoking command in '/home/b31pc18/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b31pc18/appfre_ws/build/bunker_mini -- -j4 -l4
+Invoked command in '/home/b31pc18/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b31pc18/appfre_ws/build/bunker_mini -- -j4 -l4
+Invoking command in '/home/b31pc18/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b31pc18/appfre_ws/build/bunker_mini
+Invoked command in '/home/b31pc18/appfre_ws/build/bunker_mini' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b31pc18/appfre_ws/build/bunker_mini

@@ -1,0 +1,1 @@
+/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.zsh

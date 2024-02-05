@@ -1,0 +1,9 @@
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/uninstall.dir
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/bunker_mini_uninstall.dir
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/test.dir
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/edit_cache.dir
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/rebuild_cache.dir
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/list_install_components.dir
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/install.dir
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/install/local.dir
+/home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/install/strip.dir

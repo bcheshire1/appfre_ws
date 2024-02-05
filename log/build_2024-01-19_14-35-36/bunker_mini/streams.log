@@ -1,0 +1,25 @@
+[0.067s] Invoking command in '/home/b31pc18/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b31pc18/appfre_ws/build/bunker_mini -- -j4 -l4
+[0.085s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.199s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.205s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.268s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.272s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.273s] -- Added test 'lint_cmake' to check CMake code style
+[0.273s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.276s] -- Added test 'xmllint' to check XML markup files
+[0.276s] -- Configuring done
+[0.279s] -- Generating done
+[0.280s] -- Build files have been written to: /home/b31pc18/appfre_ws/build/bunker_mini
+[0.297s] Invoked command in '/home/b31pc18/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b31pc18/appfre_ws/build/bunker_mini -- -j4 -l4
+[0.324s] Invoking command in '/home/b31pc18/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b31pc18/appfre_ws/build/bunker_mini
+[0.331s] -- Install configuration: ""
+[0.331s] -- Execute custom install script
+[0.331s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[0.331s]   ament_cmake_symlink_install_programs() can't find
+[0.331s]   '/home/b31pc18/appfre_ws/src/bunker_mini/src/bunker_mini/src/new_costmap_layer.py'
+[0.331s] Call Stack (most recent call first):
+[0.331s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_programs)
+[0.331s]   cmake_install.cmake:46 (include)
+[0.331s] 
+[0.331s] [0m
+[0.333s] Invoked command in '/home/b31pc18/appfre_ws/build/bunker_mini' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b31pc18/appfre_ws/build/bunker_mini

@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/b31pc18/appfre_ws/build/bunker_mini
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/b31pc18/appfre_ws/build/bunker_mini
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/drive_bot.rviz
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/empty.yaml
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/mapper_params_online_async.yaml
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/nav2_config.rviz
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/nav2_params.yaml
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/rviz_slam_config.rviz
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/view_robot.rviz
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/bunker_mini.stl
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/gazebo_control.xacro
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/inertial_macros.xacro
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/lidar.xacro
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/materials.xacro
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/robot.urdf.xacro
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/robot_core.xacro
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/launch/example_tb3_launch_file.launch.py
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/launch/launch_nav2.launch.py
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/launch/launch_sim.launch.py
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/launch/launch_slam.launch.py
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/launch/rsp.launch.py
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/launch/scratch_launch_file.launch.py
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/empty.world
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/obstacles.world
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/room_with_obstacles.world
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/small_gap.world
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/ament_index/resource_index/package_run_dependencies/bunker_mini
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/ament_index/resource_index/parent_prefix_path/bunker_mini
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.sh
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.dsv
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.sh
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.dsv
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.bash
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.sh
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.zsh
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.dsv
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/ament_index/resource_index/packages/bunker_mini
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig.cmake
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig-version.cmake
+-- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.xml
