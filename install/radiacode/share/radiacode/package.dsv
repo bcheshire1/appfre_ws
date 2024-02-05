@@ -1,0 +1,8 @@
+source;share/radiacode/hook/cmake_prefix_path.ps1
+source;share/radiacode/hook/cmake_prefix_path.dsv
+source;share/radiacode/hook/cmake_prefix_path.sh
+source;share/radiacode/local_setup.bash
+source;share/radiacode/local_setup.dsv
+source;share/radiacode/local_setup.ps1
+source;share/radiacode/local_setup.sh
+source;share/radiacode/local_setup.zsh

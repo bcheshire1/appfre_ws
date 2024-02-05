@@ -5,7 +5,6 @@
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/nav2_params.yaml
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/rviz_slam_config.rviz
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/test_costmap.rviz
-/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config/view_robot.rviz
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/bunker_mini.stl
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/gazebo_control.xacro
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description/inertial_macros.xacro
@@ -17,6 +16,7 @@
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/launch/rsp.launch.py
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/empty.world
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/obstacles.world
+/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/room.world
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/room_with_obstacles.world
 /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/small_gap.world
 /home/b31pc18/appfre_ws/install/bunker_mini/share/ament_index/resource_index/package_run_dependencies/bunker_mini

@@ -1,0 +1,15 @@
+/home/b31pc18/appfre_ws/install/radiacode/share/ament_index/resource_index/package_run_dependencies/radiacode
+/home/b31pc18/appfre_ws/install/radiacode/share/ament_index/resource_index/parent_prefix_path/radiacode
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.sh
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.dsv
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/environment/path.sh
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/environment/path.dsv
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/local_setup.bash
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/local_setup.sh
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/local_setup.zsh
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/local_setup.dsv
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/package.dsv
+/home/b31pc18/appfre_ws/install/radiacode/share/ament_index/resource_index/packages/radiacode
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig.cmake
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig-version.cmake
+/home/b31pc18/appfre_ws/install/radiacode/share/radiacode/package.xml
