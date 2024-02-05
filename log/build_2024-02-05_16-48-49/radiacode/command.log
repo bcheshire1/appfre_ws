@@ -1,0 +1,6 @@
+Invoking command in '/home/b31pc18/appfre_ws/build/radiacode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/b31pc18/appfre_ws/src/radiacode -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/b31pc18/appfre_ws/install/radiacode
+Invoked command in '/home/b31pc18/appfre_ws/build/radiacode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/b31pc18/appfre_ws/src/radiacode -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/b31pc18/appfre_ws/install/radiacode
+Invoking command in '/home/b31pc18/appfre_ws/build/radiacode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/b31pc18/appfre_ws/build/radiacode -- -j4 -l4
+Invoked command in '/home/b31pc18/appfre_ws/build/radiacode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/b31pc18/appfre_ws/build/radiacode -- -j4 -l4
+Invoking command in '/home/b31pc18/appfre_ws/build/radiacode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/b31pc18/appfre_ws/build/radiacode
+Invoked command in '/home/b31pc18/appfre_ws/build/radiacode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/b31pc18/appfre_ws/build/radiacode

@@ -1,0 +1,4 @@
+source;share/radiacode/local_setup.bash
+source;share/radiacode/local_setup.dsv
+source;share/radiacode/local_setup.sh
+source;share/radiacode/local_setup.zsh
