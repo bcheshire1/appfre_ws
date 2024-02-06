@@ -21,7 +21,7 @@ def falling_edge_callback(channel):
     print(f"Falling edge detected! Count: {count}")
 
 # Add falling edge detection event
-GPIO.add_event_detect(GEIGER_PIN, GPIO.FALLING, callback=falling_edge_callback, bouncetime=300) 
+GPIO.add_event_detect(GEIGER_PIN, GPIO.FALLING, callback=falling_edge_callback, bouncetime=50) 
 #Bounce time in milliseconds - Used to avoid false triggering due noise
 #Trial with bounce time to just more than GMT dead time + recovery time 
 
