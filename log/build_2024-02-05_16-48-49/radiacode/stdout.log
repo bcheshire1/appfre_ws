@@ -20,21 +20,21 @@
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/b31pc18/appfre_ws/build/radiacode
+-- Build files have been written to: /home/appfre/appfre_ws/build/radiacode
 -- Install configuration: ""
 -- Execute custom install script
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/ament_index/resource_index/package_run_dependencies/radiacode
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/ament_index/resource_index/parent_prefix_path/radiacode
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.sh
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.dsv
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/environment/path.sh
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/environment/path.dsv
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/local_setup.bash
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/local_setup.sh
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/local_setup.zsh
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/local_setup.dsv
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/package.dsv
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/ament_index/resource_index/packages/radiacode
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig.cmake
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig-version.cmake
--- Symlinking: /home/b31pc18/appfre_ws/install/radiacode/share/radiacode/package.xml
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/package_run_dependencies/radiacode
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/parent_prefix_path/radiacode
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.sh
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.dsv
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/path.sh
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/path.dsv
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.bash
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.sh
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.zsh
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.dsv
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/package.dsv
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/packages/radiacode
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig.cmake
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig-version.cmake
+-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/package.xml

@@ -1,0 +1,53 @@
+[0.091s] Invoking command in '/home/appfre/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_mini -- -j8 -l8
+[0.112s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.269s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.333s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.336s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.337s] -- Added test 'lint_cmake' to check CMake code style
+[0.338s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.341s] -- Added test 'xmllint' to check XML markup files
+[0.343s] -- Configuring done
+[0.345s] -- Generating done
+[0.346s] -- Build files have been written to: /home/appfre/appfre_ws/build/bunker_mini
+[0.365s] Invoked command in '/home/appfre/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_mini -- -j8 -l8
+[0.385s] Invoking command in '/home/appfre/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_mini
+[0.391s] -- Install configuration: ""
+[0.392s] -- Execute custom install script
+[0.392s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/drive_bot.rviz
+[0.400s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/empty.yaml
+[0.408s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/mapper_params_online_async.yaml
+[0.415s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/nav2_config.rviz
+[0.423s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/nav2_params.yaml
+[0.432s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/rviz_slam_config.rviz
+[0.440s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/test_costmap.rviz
+[0.448s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/bunker_mini.stl
+[0.455s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/gazebo_control.xacro
+[0.463s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/inertial_macros.xacro
+[0.471s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/lidar.xacro
+[0.478s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/materials.xacro
+[0.486s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/robot.urdf.xacro
+[0.493s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/robot_core.xacro
+[0.502s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/launch/launch_nav2.launch.py
+[0.509s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/launch/rsp.launch.py
+[0.517s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/empty.world
+[0.524s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/obstacles.world
+[0.534s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/room.world
+[0.543s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/room_with_obstacles.world
+[0.551s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/small_gap.world
+[0.558s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/package_run_dependencies/bunker_mini
+[0.567s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/parent_prefix_path/bunker_mini
+[0.575s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.sh
+[0.575s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.dsv
+[0.583s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.sh
+[0.583s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.dsv
+[0.591s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.bash
+[0.600s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.sh
+[0.607s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.zsh
+[0.615s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.dsv
+[0.622s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv
+[0.631s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/packages/bunker_mini
+[0.639s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig.cmake
+[0.647s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig-version.cmake
+[0.655s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.xml
+[0.665s] Invoked command in '/home/appfre/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_mini

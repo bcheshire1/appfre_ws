@@ -1,1 +1,1 @@
-/home/b31pc18/appfre_ws/src/bunker_mini/launch/launch_nav2.launch.py
+/home/appfre/appfre_ws/src/bunker_mini/launch/launch_nav2.launch.py

@@ -8,26 +8,26 @@
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/b31pc18/appfre_ws/build/bunker_mini
+-- Build files have been written to: /home/appfre/appfre_ws/build/bunker_mini
 -- Install configuration: ""
 -- Execute custom install script
--- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/new_costmap_layer.py
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/ament_index/resource_index/package_run_dependencies/bunker_mini
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/ament_index/resource_index/parent_prefix_path/bunker_mini
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.sh
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.dsv
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.sh
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.dsv
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.bash
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.sh
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.zsh
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.dsv
--- Symlinking: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/ament_index/resource_index/packages/bunker_mini
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig.cmake
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig-version.cmake
--- Up-to-date symlink: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.xml
--- Up-to-date: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/config
--- Up-to-date: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/description
--- Up-to-date: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/launch
--- Up-to-date: /home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/worlds
+-- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/new_costmap_layer.py
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/package_run_dependencies/bunker_mini
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/parent_prefix_path/bunker_mini
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.sh
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.dsv
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.bash
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.sh
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.zsh
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.dsv
+-- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/packages/bunker_mini
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig.cmake
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig-version.cmake
+-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.xml
+-- Up-to-date: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config
+-- Up-to-date: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description
+-- Up-to-date: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/launch
+-- Up-to-date: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds
