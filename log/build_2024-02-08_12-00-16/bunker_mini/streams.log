@@ -1,0 +1,5 @@
+[0.094s] Invoking command in '/home/appfre/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_mini -- -j8 -l8
+[0.110s] [0mCMake Error: The source directory "/home/appfre/appfre_ws/src/bunker_mini" does not exist.
+[0.110s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.111s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.114s] Invoked command in '/home/appfre/appfre_ws/build/bunker_mini' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_mini -- -j8 -l8

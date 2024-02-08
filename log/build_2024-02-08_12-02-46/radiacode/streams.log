@@ -1,0 +1,31 @@
+[0.049s] Invoking command in '/home/appfre/appfre_ws/build/radiacode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/radiacode -- -j8 -l8
+[0.067s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.214s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.221s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.284s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.285s] -- Added test 'lint_cmake' to check CMake code style
+[0.285s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.287s] -- Added test 'xmllint' to check XML markup files
+[0.288s] -- Configuring done
+[0.291s] -- Generating done
+[0.292s] -- Build files have been written to: /home/appfre/appfre_ws/build/radiacode
+[0.311s] Invoked command in '/home/appfre/appfre_ws/build/radiacode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/radiacode -- -j8 -l8
+[0.338s] Invoking command in '/home/appfre/appfre_ws/build/radiacode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/radiacode
+[0.345s] -- Install configuration: ""
+[0.345s] -- Execute custom install script
+[0.346s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/package_run_dependencies/radiacode
+[0.354s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/parent_prefix_path/radiacode
+[0.362s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.sh
+[0.362s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.dsv
+[0.370s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/path.sh
+[0.370s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/path.dsv
+[0.378s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.bash
+[0.386s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.sh
+[0.395s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.zsh
+[0.403s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.dsv
+[0.410s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/package.dsv
+[0.418s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/packages/radiacode
+[0.426s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig.cmake
+[0.433s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig-version.cmake
+[0.440s] -- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/package.xml
+[0.450s] Invoked command in '/home/appfre/appfre_ws/build/radiacode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/radiacode

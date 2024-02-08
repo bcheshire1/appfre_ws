@@ -1,0 +1,2 @@
+Invoking command in '/home/appfre/appfre_ws/build/radiacode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/radiacode -- -j8 -l8
+Invoked command in '/home/appfre/appfre_ws/build/radiacode' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/radiacode -- -j8 -l8

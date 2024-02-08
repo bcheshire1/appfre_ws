@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/b31pc18/appfre_ws/src/bunker_mini
+CMAKE_SOURCE_DIR = /home/appfre/appfre_ws/src/bunker_mini
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/b31pc18/appfre_ws/build/bunker_mini
+CMAKE_BINARY_DIR = /home/appfre/appfre_ws/build/bunker_mini
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/b31pc18/appfre_ws/build/bunker_mini && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/b31pc18/appfre_ws/src/bunker_mini /home/b31pc18/appfre_ws/src/bunker_mini /home/b31pc18/appfre_ws/build/bunker_mini /home/b31pc18/appfre_ws/build/bunker_mini /home/b31pc18/appfre_ws/build/bunker_mini/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/appfre/appfre_ws/build/bunker_mini && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/appfre/appfre_ws/src/bunker_mini /home/appfre/appfre_ws/src/bunker_mini /home/appfre/appfre_ws/build/bunker_mini /home/appfre/appfre_ws/build/bunker_mini /home/appfre/appfre_ws/build/bunker_mini/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -6,7 +6,7 @@
 [1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
 [1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
 [1.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
-[1.064s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/b31pc18/appfre_ws'
+[1.064s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/appfre/appfre_ws'
 [1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
 [1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
 [1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
@@ -61,7 +61,7 @@
 [1.077s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
 [1.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [1.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
-[1.204s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/b31pc18/appfre_ws/install
+[1.204s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/appfre/appfre_ws/install
 [1.220s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 431 installed packages in /opt/ros/humble
 [1.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
 [1.331s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'cmake_args' from command line to 'None'
@@ -73,52 +73,52 @@
 [1.331s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'ament_cmake_args' from command line to 'None'
 [1.331s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'catkin_cmake_args' from command line to 'None'
 [1.331s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'catkin_skip_building_tests' from command line to 'False'
-[1.331s] DEBUG:colcon.colcon_core.verb:Building package 'bunker_mini' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/b31pc18/appfre_ws/build/bunker_mini', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/b31pc18/appfre_ws/install/bunker_mini', 'merge_install': False, 'path': '/home/b31pc18/appfre_ws/src/bunker_mini', 'symlink_install': True, 'test_result_base': None}
+[1.331s] DEBUG:colcon.colcon_core.verb:Building package 'bunker_mini' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/appfre/appfre_ws/build/bunker_mini', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/appfre/appfre_ws/install/bunker_mini', 'merge_install': False, 'path': '/home/appfre/appfre_ws/src/bunker_mini', 'symlink_install': True, 'test_result_base': None}
 [1.346s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
 [1.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
-[1.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/b31pc18/appfre_ws/src/bunker_mini' with build type 'ament_cmake'
-[1.362s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/b31pc18/appfre_ws/src/bunker_mini'
+[1.362s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/appfre/appfre_ws/src/bunker_mini' with build type 'ament_cmake'
+[1.362s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/appfre/appfre_ws/src/bunker_mini'
 [1.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
 [1.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [1.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/b31pc18/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b31pc18/appfre_ws/build/bunker_mini -- -j4 -l4
-[1.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/b31pc18/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b31pc18/appfre_ws/build/bunker_mini -- -j4 -l4
-[1.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/b31pc18/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b31pc18/appfre_ws/build/bunker_mini
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_mini -- -j4 -l4
+[1.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_mini -- -j4 -l4
+[1.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_mini
 [1.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bunker_mini)
-[1.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/b31pc18/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b31pc18/appfre_ws/build/bunker_mini
-[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini' for CMake module files
-[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini' for CMake config files
+[1.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_mini
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini' for CMake module files
+[1.579s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini' for CMake config files
 [1.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_mini', 'cmake_prefix_path')
-[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.ps1'
-[1.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.dsv'
-[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.sh'
-[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini/bin'
-[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini/lib/pkgconfig/bunker_mini.pc'
-[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini/lib/python3.10/site-packages'
-[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini/bin'
-[1.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.ps1'
-[1.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv'
-[1.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.sh'
-[1.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.bash'
-[1.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.zsh'
-[1.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/b31pc18/appfre_ws/install/bunker_mini/share/colcon-core/packages/bunker_mini)
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.sh'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/bin'
+[1.597s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/lib/pkgconfig/bunker_mini.pc'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/lib/python3.10/site-packages'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/bin'
+[1.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.ps1'
+[1.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv'
+[1.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.sh'
+[1.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.bash'
+[1.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.zsh'
+[1.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/bunker_mini/share/colcon-core/packages/bunker_mini)
 [1.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bunker_mini)
-[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini' for CMake module files
-[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini' for CMake config files
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini' for CMake module files
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini' for CMake config files
 [1.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_mini', 'cmake_prefix_path')
-[1.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.ps1'
-[1.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.dsv'
-[1.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.sh'
-[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini/bin'
-[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini/lib/pkgconfig/bunker_mini.pc'
-[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini/lib/python3.10/site-packages'
-[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/b31pc18/appfre_ws/install/bunker_mini/bin'
-[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.ps1'
-[1.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv'
-[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.sh'
-[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.bash'
-[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/b31pc18/appfre_ws/install/bunker_mini/share/bunker_mini/package.zsh'
-[1.702s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/b31pc18/appfre_ws/install/bunker_mini/share/colcon-core/packages/bunker_mini)
+[1.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.ps1'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.dsv'
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.sh'
+[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/bin'
+[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/lib/pkgconfig/bunker_mini.pc'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/lib/python3.10/site-packages'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/bin'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.sh'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.bash'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.zsh'
+[1.702s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/bunker_mini/share/colcon-core/packages/bunker_mini)
 [1.702s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
 [1.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
 [1.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
@@ -127,13 +127,13 @@
 [1.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
 [1.724s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
 [1.734s] DEBUG:colcon.colcon_core.event_reactor:joined thread
-[1.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/b31pc18/appfre_ws/install/local_setup.ps1'
-[1.751s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/b31pc18/appfre_ws/install/_local_setup_util_ps1.py'
-[1.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/b31pc18/appfre_ws/install/setup.ps1'
-[1.768s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/b31pc18/appfre_ws/install/local_setup.sh'
-[1.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/b31pc18/appfre_ws/install/_local_setup_util_sh.py'
-[1.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/b31pc18/appfre_ws/install/setup.sh'
-[1.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/b31pc18/appfre_ws/install/local_setup.bash'
-[1.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/b31pc18/appfre_ws/install/setup.bash'
-[1.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/b31pc18/appfre_ws/install/local_setup.zsh'
-[1.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/b31pc18/appfre_ws/install/setup.zsh'
+[1.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/appfre/appfre_ws/install/local_setup.ps1'
+[1.751s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/appfre/appfre_ws/install/_local_setup_util_ps1.py'
+[1.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/appfre/appfre_ws/install/setup.ps1'
+[1.768s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/appfre/appfre_ws/install/local_setup.sh'
+[1.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/appfre/appfre_ws/install/_local_setup_util_sh.py'
+[1.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/appfre/appfre_ws/install/setup.sh'
+[1.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/appfre/appfre_ws/install/local_setup.bash'
+[1.786s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/appfre/appfre_ws/install/setup.bash'
+[1.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/appfre/appfre_ws/install/local_setup.zsh'
+[1.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/appfre/appfre_ws/install/setup.zsh'

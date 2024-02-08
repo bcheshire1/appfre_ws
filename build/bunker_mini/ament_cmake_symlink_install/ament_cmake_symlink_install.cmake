@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/b31pc18/appfre_ws/install/bunker_mini/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/appfre/appfre_ws/install/bunker_mini/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/b31pc18/appfre_ws/install/bunker_mini/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/appfre/appfre_ws/install/bunker_mini/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/b31pc18/appfre_ws/install/bunker_mini/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/appfre/appfre_ws/install/bunker_mini/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/b31pc18/appfre_ws/install/bunker_mini/${destination}")
+      set(destination "/home/appfre/appfre_ws/install/bunker_mini/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/bunker_mini")
-ament_cmake_symlink_install_directory("/home/b31pc18/appfre_ws/src/bunker_mini" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/bunker_mini")
+ament_cmake_symlink_install_directory("/home/appfre/appfre_ws/src/bunker_mini" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/bunker_mini")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bunker_mini" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bunker_mini" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bunker_mini" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bunker_mini" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bunker_mini" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bunker_mini" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bunker_mini" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bunker_mini" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/bunker_mini/environment")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/bunker_mini/environment")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/bunker_mini/environment")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/bunker_mini/environment")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/bunker_mini/environment")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/bunker_mini/environment")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/bunker_mini/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/bunker_mini/environment")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/bunker_mini/environment")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/bunker_mini/environment")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/bunker_mini/environment")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/bunker_mini/environment")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/bunker_mini/environment")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/bunker_mini/environment")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/bunker_mini")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/bunker_mini")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/bunker_mini")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/bunker_mini")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/bunker_mini")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/bunker_mini")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/bunker_mini")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/bunker_mini")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/bunker_mini")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/bunker_mini")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/bunker_mini")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/bunker_mini")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/bunker_mini")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/bunker_mini")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/bunker_mini")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/bunker_mini")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/bunker_mini")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/bunker_mini")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/bunker_mini")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/bunker_mini")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/packages/bunker_mini" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/packages/bunker_mini" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/packages/bunker_mini" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_index/share/ament_index/resource_index/packages/bunker_mini" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_core/bunker_miniConfig.cmake" "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_core/bunker_miniConfig-version.cmake" "DESTINATION" "share/bunker_mini/cmake")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_core/bunker_miniConfig.cmake" "/home/b31pc18/appfre_ws/build/bunker_mini/ament_cmake_core/bunker_miniConfig-version.cmake" "DESTINATION" "share/bunker_mini/cmake")
+# install(FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_core/bunker_miniConfig.cmake" "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_core/bunker_miniConfig-version.cmake" "DESTINATION" "share/bunker_mini/cmake")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_core/bunker_miniConfig.cmake" "/home/appfre/appfre_ws/build/bunker_mini/ament_cmake_core/bunker_miniConfig-version.cmake" "DESTINATION" "share/bunker_mini/cmake")
 
-# install(FILES "/home/b31pc18/appfre_ws/src/bunker_mini/package.xml" "DESTINATION" "share/bunker_mini")
-ament_cmake_symlink_install_files("/home/b31pc18/appfre_ws/src/bunker_mini" FILES "/home/b31pc18/appfre_ws/src/bunker_mini/package.xml" "DESTINATION" "share/bunker_mini")
+# install(FILES "/home/appfre/appfre_ws/src/bunker_mini/package.xml" "DESTINATION" "share/bunker_mini")
+ament_cmake_symlink_install_files("/home/appfre/appfre_ws/src/bunker_mini" FILES "/home/appfre/appfre_ws/src/bunker_mini/package.xml" "DESTINATION" "share/bunker_mini")
