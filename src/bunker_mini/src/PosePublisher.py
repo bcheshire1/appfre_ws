@@ -12,7 +12,7 @@ class PosePublisher(Node):
         self.publisher = self.create_publisher(PoseStamped, '/goal_pose', 10)
         timer_period = 1.5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.x_pos = 0.0
+        self.x_pos = 1.0
         self.y_pos = 2.0
         self.z_pos = 0.0
 
@@ -43,9 +43,7 @@ def main(args=None):
 
     pose_publisher = PosePublisher()
 
-    for i in range(2):
-        rclpy.spin_once(pose_publisher)
-        t.sleep(2)
+    rclpy.spin(pose_publisher)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
