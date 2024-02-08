@@ -26,6 +26,7 @@ Then clone this repo (probably into your home directory)
 ```
 git clone https://github.com/bcheshire1/appfre_ws.git
 ```
+Navigate into the appfre_ws directory
 ```
 cd appfre_ws
 ```
