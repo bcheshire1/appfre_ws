@@ -33,6 +33,19 @@ Install Gazebo classic
 curl -sSL http://get.gazebosim.org | sh
 ```
 
+Install gazebo_ros_pkgs
+```
+sudo apt install ros-foxy-gazebo-ros-pkgs
+```
+Install python3-pip
+```
+sudo apt install python3-pip
+```
+install the xacro extension
+```
+pip install xacro
+```
+
 Then clone this repo (probably into your home directory)
 ```
 git clone https://github.com/bcheshire1/appfre_ws.git
@@ -41,6 +54,11 @@ Navigate into the appfre_ws directory
 ```
 cd appfre_ws
 ```
+## Building the workspace
+When building the workspace, you will need to edit the CMakeCache.txt file in the bunker_mini and radiacode packages. 
+To do this, install and use VSCode to search for and replace all instances of "/b31pc18/" to the name of your home directory (for example, the home directory on a new PC could be "home" to you would find all instances of "/b31pc18/" and replace with "/home/"
+There is also one instance of the pc name in the CMakeCache.txt file ("b31pc18-Precision-Tower-3430"). Replace all these instances with the name of your pc (you can find this by running the command ```hostname`1`` in your command line)
+
 Build the workspace with colcon
 ```
 colcon build --symlink-install
