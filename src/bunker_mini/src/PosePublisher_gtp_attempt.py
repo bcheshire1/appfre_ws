@@ -9,9 +9,9 @@ class PosePublisher(Node):
     def __init__(self):
         super().__init__('pose_publisher')
         self.publisher = self.create_publisher(PoseStamped, '/goal_pose', 10)
-        self.timer = self.create_timer(1.5, self.timer_callback)
+        self.timer = self.create_timer(3, self.timer_callback)
         self.x_pos = 0.0
-        self.y_pos = 0.0
+        self.y_pos = -1.0
         self.z_pos = 0.0
 
         # Adding subscriber for goal status
@@ -47,7 +47,7 @@ class PosePublisher(Node):
             # Assuming status is an attribute of GoalStatus
             if hasattr(final_goal_status, 'status'):
                 status_string = int(final_goal_status.status)
-                print(f"status_string: {status_string}")
+                print(f"Goal not reached yet, publishing again...")
                 if status_string == 4 or status_string == 6:
                     print("Goal reached, stopping publisher")
                     Node.destroy_node(self)
