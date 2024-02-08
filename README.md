@@ -8,6 +8,11 @@ sudo apt update
 sudo apt upgrade
 ```
 
+Install colcon
+```
+sudo apt install python3-colcon-common-extensions
+```
+
 Install ROS2 Humble using the provided documentation (ros-humble-desktop recommended):
 ```
 https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
