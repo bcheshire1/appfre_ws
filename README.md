@@ -2,7 +2,13 @@
 
 For this workspace to run, a few extra packages need to be installed.
 
-Firstly install ROS2 Humble using the provided documentation (ros-humble-desktop recommended):
+Firstly, udpate and upgrade apt
+```
+sudo apt update
+sudo apt upgrade
+```
+
+Install ROS2 Humble using the provided documentation (ros-humble-desktop recommended):
 ```
 https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
 ```
