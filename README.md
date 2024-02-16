@@ -55,7 +55,7 @@ Navigate into the appfre_ws directory
 cd appfre_ws
 ```
 ## Building the workspace
-When building the workspace, you will need to remove the ```build```, ```log```, and ```install``` directories (simply open file explorer and delete them). This will give colcon a clean build space to build from and will prevent any issues arising due to difference in PC names etc.
+When building the workspace, you will need to remove the ```build```, ```log```, and ```install``` directories (simply open file explorer and delete them, or alternatively, run the command below). This will give colcon a clean build space to build from and will prevent any issues arising due to difference in PC names etc.
 
 Do this by running this command from your workspace (```~/appfre_ws$ ```):
 ```
