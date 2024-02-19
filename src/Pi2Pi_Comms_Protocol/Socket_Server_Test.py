@@ -26,3 +26,5 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
 
         # Send a response back to the client
         client_socket.sendall(b"Hello from server!")
+
+#WRITTEN BY CHATGPT
