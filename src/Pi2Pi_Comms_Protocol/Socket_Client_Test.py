@@ -15,3 +15,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
     # Receive a response from the server
     data = client_socket.recv(1024)
     print("Received from server:", data.decode())
+
+
+#WRITTEN BY CHATGPT
