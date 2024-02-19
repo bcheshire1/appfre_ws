@@ -14,17 +14,32 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
 
     print("Server listening on {}:{}".format(HOST, PORT))
 
+
     # Accept a connection
     client_socket, client_address = server_socket.accept()
 
     with client_socket:
         print("Connected to client:", client_address)
 
-        # Receive data from the client
-        data = client_socket.recv(1024)
-        print("Received:", data.decode())
+        # Send real-time data to the client
+        while True:
+            # Get current timestamp
+            timestamp = time.time()
+            
+            # Increment count
+            count += 1
+            
+            # Concatenate count and timestamp into a single string
+            data_to_send = f"{count},{timestamp}"
 
-        # Send a response back to the client
-        client_socket.sendall(b"Hello from server!")
+            #Print to confirm on both SSH terminals
+            print(f"{timestamp} Sending count:", count)
+            
+            # Send data to the client
+            client_socket.sendall(data_to_send.encode())
+
+            # Wait for a short interval
+            time.sleep(1)  # Adjust as needed for your desired update rate
 
 #WRITTEN BY CHATGPT
+#Tested and tweaked by NL
