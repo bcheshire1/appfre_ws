@@ -47,8 +47,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
 
             # Reset the count every x amount of seconds
             if count > 0:
-            print("Resetting count.")
-            count = 0
+                print("Resetting count.")
+                count = 0
           
             # Concatenate count and timestamp into a single string
             data_to_send = f"{count},{timestamp}"
