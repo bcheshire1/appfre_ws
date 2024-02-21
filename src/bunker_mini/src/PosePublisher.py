@@ -14,7 +14,7 @@ class PosePublisher(Node):
         self.timer = self.create_timer(3, self.timer_callback)
         # Define xyz goal_pose coordinates
         self.x_pos = 0.0
-        self.y_pos = -1.0
+        self.y_pos = 0.0
         self.z_pos = 0.0
 
         # Adding subscriber for goal status
@@ -27,7 +27,7 @@ class PosePublisher(Node):
         )
 
     # This is what gets called every x seconds based off the timer callback
-    def timer_callback(self, msg):
+    def timer_callback(self):
         pose_msg = PoseStamped()
         pose_msg.header.stamp = self.get_clock().now().to_msg()
         pose_msg.header.frame_id = 'map'
@@ -43,7 +43,8 @@ class PosePublisher(Node):
         self.publisher.publish(pose_msg)
         position_data = f'x: {pose_msg.pose.position.x}, y: {pose_msg.pose.position.y}'
         self.get_logger().info(f'Published PoseStamped message at position: {position_data}')
-
+    
+    def goal_status_callback(self, msg):
         # Code from here until the main function is the goal status subscriber
         # msg is the GoalStatusArray message type
         status_list = msg.status_list
@@ -53,7 +54,6 @@ class PosePublisher(Node):
             # Get the status attribute of the message
             if hasattr(final_goal_status, 'status'):
                 status_string = int(final_goal_status.status)
-                print(f"Goal not reached yet, publishing again...")
                 # If the robot has reached the goal, stop publishing
                 if status_string == 4 or status_string == 6:
                     print("Goal reached, stopping publisher")

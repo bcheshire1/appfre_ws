@@ -1,0 +1,797 @@
+[0.000000] (-) TimerEvent: {}
+[0.000320] (bunker_mini) JobQueued: {'identifier': 'bunker_mini', 'dependencies': OrderedDict()}
+[0.000398] (bunker_msgs) JobQueued: {'identifier': 'bunker_msgs', 'dependencies': OrderedDict()}
+[0.000421] (radiacode) JobQueued: {'identifier': 'radiacode', 'dependencies': OrderedDict()}
+[0.000443] (ugv_sdk) JobQueued: {'identifier': 'ugv_sdk', 'dependencies': OrderedDict()}
+[0.000479] (bunker_base) JobQueued: {'identifier': 'bunker_base', 'dependencies': OrderedDict([('bunker_msgs', '/home/appfre/appfre_ws/install/bunker_msgs'), ('ugv_sdk', '/home/appfre/appfre_ws/install/ugv_sdk')])}
+[0.000504] (bunker_msgs) JobStarted: {'identifier': 'bunker_msgs'}
+[0.058866] (ugv_sdk) JobStarted: {'identifier': 'ugv_sdk'}
+[0.099734] (-) TimerEvent: {}
+[0.110242] (bunker_mini) JobStarted: {'identifier': 'bunker_mini'}
+[0.158239] (radiacode) JobStarted: {'identifier': 'radiacode'}
+[0.199896] (-) TimerEvent: {}
+[0.210750] (bunker_msgs) JobProgress: {'identifier': 'bunker_msgs', 'progress': 'cmake'}
+[0.211090] (bunker_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/appfre/appfre_ws/src/bunker_ros2/bunker_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/appfre/appfre_ws/install/bunker_msgs'], 'cwd': '/home/appfre/appfre_ws/build/bunker_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/bunker_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.213639] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'cmake'}
+[0.214018] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/appfre/appfre_ws/src/ugv_sdk', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/appfre/appfre_ws/install/ugv_sdk'], 'cwd': '/home/appfre/appfre_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/ugv_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.215320] (bunker_mini) JobProgress: {'identifier': 'bunker_mini', 'progress': 'cmake'}
+[0.215741] (bunker_mini) JobProgress: {'identifier': 'bunker_mini', 'progress': 'build'}
+[0.216921] (bunker_mini) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/appfre/appfre_ws/build/bunker_mini', '--', '-j8', '-l8'], 'cwd': '/home/appfre/appfre_ws/build/bunker_mini', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/bunker_mini'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.221846] (radiacode) JobProgress: {'identifier': 'radiacode', 'progress': 'cmake'}
+[0.222666] (radiacode) JobProgress: {'identifier': 'radiacode', 'progress': 'build'}
+[0.223213] (radiacode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/appfre/appfre_ws/build/radiacode', '--', '-j8', '-l8'], 'cwd': '/home/appfre/appfre_ws/build/radiacode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/radiacode'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.262240] (bunker_mini) CommandEnded: {'returncode': 0}
+[0.267463] (ugv_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.271181] (bunker_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.271618] (radiacode) CommandEnded: {'returncode': 0}
+[0.281916] (bunker_mini) JobProgress: {'identifier': 'bunker_mini', 'progress': 'install'}
+[0.290251] (bunker_mini) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/appfre/appfre_ws/build/bunker_mini'], 'cwd': '/home/appfre/appfre_ws/build/bunker_mini', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/bunker_mini'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.294970] (radiacode) JobProgress: {'identifier': 'radiacode', 'progress': 'install'}
+[0.295634] (radiacode) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/appfre/appfre_ws/build/radiacode'], 'cwd': '/home/appfre/appfre_ws/build/radiacode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/radiacode'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.298608] (bunker_mini) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.299284] (bunker_mini) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.299484] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/drive_bot.rviz\n'}
+[0.299679] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/empty.yaml\n'}
+[0.299876] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/mapper_params_online_async.yaml\n'}
+[0.300020] (-) TimerEvent: {}
+[0.300313] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/nav2_config.rviz\n'}
+[0.300462] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/nav2_params.yaml\n'}
+[0.300596] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/rviz_slam_config.rviz\n'}
+[0.300792] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/config/test_costmap.rviz\n'}
+[0.300930] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/bunker_mini.stl\n'}
+[0.301089] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/gazebo_control.xacro\n'}
+[0.301225] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/inertial_macros.xacro\n'}
+[0.301335] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/lidar.xacro\n'}
+[0.301492] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/materials.xacro\n'}
+[0.301602] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/robot.urdf.xacro\n'}
+[0.301754] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/description/robot_core.xacro\n'}
+[0.301905] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/launch/launch_nav2.launch.py\n'}
+[0.302039] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/launch/rsp.launch.py\n'}
+[0.302174] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/empty.world\n'}
+[0.302306] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/obstacles.world\n'}
+[0.302437] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/room.world\n'}
+[0.302552] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/room_with_obstacles.world\n'}
+[0.302687] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/worlds/small_gap.world\n'}
+[0.302810] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/package_run_dependencies/bunker_mini\n'}
+[0.302936] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/parent_prefix_path/bunker_mini\n'}
+[0.303059] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.sh\n'}
+[0.303179] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/ament_prefix_path.dsv\n'}
+[0.303298] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.sh\n'}
+[0.303400] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/environment/path.dsv\n'}
+[0.303523] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.bash\n'}
+[0.303653] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.sh\n'}
+[0.303797] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.zsh\n'}
+[0.303907] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/local_setup.dsv\n'}
+[0.304014] (bunker_mini) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv\n'}
+[0.305071] (radiacode) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.305656] (radiacode) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.305977] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/package_run_dependencies/radiacode\n'}
+[0.306236] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/parent_prefix_path/radiacode\n'}
+[0.306481] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.sh\n'}
+[0.306713] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/ament_prefix_path.dsv\n'}
+[0.306959] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/path.sh\n'}
+[0.307181] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/environment/path.dsv\n'}
+[0.307406] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.bash\n'}
+[0.307625] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.sh\n'}
+[0.307847] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.zsh\n'}
+[0.308064] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/local_setup.dsv\n'}
+[0.308246] (radiacode) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/radiacode/share/radiacode/package.dsv\n'}
+[0.312360] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/ament_index/resource_index/packages/bunker_mini\n'}
+[0.312686] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig.cmake\n'}
+[0.312877] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/cmake/bunker_miniConfig-version.cmake\n'}
+[0.313029] (bunker_mini) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.xml\n'}
+[0.314224] (bunker_mini) CommandEnded: {'returncode': 0}
+[0.321510] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/ament_index/resource_index/packages/radiacode\n'}
+[0.321973] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig.cmake\n'}
+[0.322199] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/cmake/radiacodeConfig-version.cmake\n'}
+[0.322595] (radiacode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/radiacode/share/radiacode/package.xml\n'}
+[0.329030] (ugv_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.329811] (bunker_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.337871] (bunker_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.339179] (ugv_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.394155] (radiacode) CommandEnded: {'returncode': 0}
+[0.400146] (-) TimerEvent: {}
+[0.403197] (bunker_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.404349] (ugv_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.410530] (bunker_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.410999] (bunker_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.411359] (bunker_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.412239] (ugv_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.412916] (ugv_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.413168] (ugv_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.415079] (bunker_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.415641] (ugv_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.491271] (bunker_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499288] (bunker_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.499572] (bunker_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.500435] (bunker_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.500762] (-) TimerEvent: {}
+[0.502289] (ugv_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.502695] (bunker_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.511360] (ugv_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.511684] (ugv_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.512418] (ugv_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.513521] (ugv_sdk) StdoutLine: {'line': b'-- Build package with cmake\n'}
+[0.513828] (ugv_sdk) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.514125] (ugv_sdk) StdoutLine: {'line': b'-- Tests will not be built\n'}
+[0.516525] (ugv_sdk) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.542266] (bunker_mini) JobEnded: {'identifier': 'bunker_mini', 'rc': 0}
+[0.590532] (ugv_sdk) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.591014] (ugv_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.601005] (-) TimerEvent: {}
+[0.611259] (radiacode) JobEnded: {'identifier': 'radiacode', 'rc': 0}
+[0.662019] (ugv_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.662790] (ugv_sdk) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.665484] (ugv_sdk) StdoutLine: {'line': b"-- Project will be installed to /home/appfre/appfre_ws/install/ugv_sdk with 'make install'\n"}
+[0.665720] (ugv_sdk) StdoutLine: {'line': b'--  - To install LIB components to /home/appfre/appfre_ws/install/ugv_sdk/lib\n'}
+[0.665848] (ugv_sdk) StdoutLine: {'line': b'--  - To install BIN components to /home/appfre/appfre_ws/install/ugv_sdk/bin\n'}
+[0.665970] (ugv_sdk) StdoutLine: {'line': b'--  - To install INCLUDE components to /home/appfre/appfre_ws/install/ugv_sdk/include\n'}
+[0.666093] (ugv_sdk) StdoutLine: {'line': b'--  - To install CMAKE components to /home/appfre/appfre_ws/install/ugv_sdk/share/cmake/ugv_sdk\n'}
+[0.672304] (ugv_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.672906] (bunker_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.687086] (ugv_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[0.688349] (ugv_sdk) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[0.688469] (ugv_sdk) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[0.688540] (ugv_sdk) StderrLine: {'line': b'\n'}
+[0.688604] (ugv_sdk) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[0.688715] (ugv_sdk) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[0.688781] (ugv_sdk) StderrLine: {'line': b'\n'}
+[0.688845] (ugv_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.688906] (ugv_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/appfre/appfre_ws/build/ugv_sdk\n'}
+[0.691895] (ugv_sdk) CommandEnded: {'returncode': 0}
+[0.692492] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'build'}
+[0.692676] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/appfre/appfre_ws/build/ugv_sdk', '--', '-j8', '-l8'], 'cwd': '/home/appfre/appfre_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/ugv_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.701115] (-) TimerEvent: {}
+[0.738605] (bunker_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.741724] (ugv_sdk) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o\x1b[0m\n'}
+[0.742328] (ugv_sdk) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o\x1b[0m\n'}
+[0.743572] (ugv_sdk) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o\x1b[0m\n'}
+[0.743846] (ugv_sdk) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o\x1b[0m\n'}
+[0.745559] (ugv_sdk) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o\x1b[0m\n'}
+[0.747847] (ugv_sdk) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o\x1b[0m\n'}
+[0.751607] (ugv_sdk) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o\x1b[0m\n'}
+[0.756288] (ugv_sdk) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o\x1b[0m\n'}
+[0.775266] (bunker_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.801230] (-) TimerEvent: {}
+[0.825453] (bunker_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.836939] (bunker_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.848185] (bunker_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.872520] (bunker_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901340] (-) TimerEvent: {}
+[0.907159] (bunker_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.939347] (bunker_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.955997] (bunker_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.004321] (-) TimerEvent: {}
+[1.027489] (ugv_sdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o\x1b[0m\n'}
+[1.097227] (ugv_sdk) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o\x1b[0m\n'}
+[1.104426] (-) TimerEvent: {}
+[1.204802] (-) TimerEvent: {}
+[1.305171] (-) TimerEvent: {}
+[1.405528] (-) TimerEvent: {}
+[1.505881] (-) TimerEvent: {}
+[1.606233] (-) TimerEvent: {}
+[1.623715] (bunker_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.706347] (-) TimerEvent: {}
+[1.806900] (-) TimerEvent: {}
+[1.907411] (-) TimerEvent: {}
+[2.008244] (-) TimerEvent: {}
+[2.108593] (-) TimerEvent: {}
+[2.208946] (-) TimerEvent: {}
+[2.309331] (-) TimerEvent: {}
+[2.409707] (-) TimerEvent: {}
+[2.413598] (bunker_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.509810] (-) TimerEvent: {}
+[2.610358] (-) TimerEvent: {}
+[2.699256] (bunker_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.710472] (-) TimerEvent: {}
+[2.735871] (bunker_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.744553] (bunker_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.789778] (bunker_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.791018] (bunker_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.791912] (bunker_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.792796] (bunker_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.810584] (-) TimerEvent: {}
+[2.826410] (bunker_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.910702] (-) TimerEvent: {}
+[2.974804] (bunker_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.010819] (-) TimerEvent: {}
+[3.041007] (bunker_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.044385] (bunker_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.046764] (bunker_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.061470] (bunker_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.110934] (-) TimerEvent: {}
+[3.172674] (bunker_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.177023] (bunker_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/appfre/appfre_ws/build/bunker_msgs\n'}
+[3.189782] (bunker_msgs) CommandEnded: {'returncode': 0}
+[3.190369] (bunker_msgs) JobProgress: {'identifier': 'bunker_msgs', 'progress': 'build'}
+[3.190434] (bunker_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/appfre/appfre_ws/build/bunker_msgs', '--', '-j8', '-l8'], 'cwd': '/home/appfre/appfre_ws/build/bunker_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/bunker_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.211048] (-) TimerEvent: {}
+[3.291309] (bunker_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.311185] (-) TimerEvent: {}
+[3.342919] (bunker_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.352703] (bunker_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_bunker_msgs\n'}
+[3.411295] (-) TimerEvent: {}
+[3.511841] (-) TimerEvent: {}
+[3.612401] (-) TimerEvent: {}
+[3.712938] (-) TimerEvent: {}
+[3.803378] (bunker_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.804282] (bunker_msgs) StdoutLine: {'line': b'creating bunker_msgs.egg-info\n'}
+[3.804577] (bunker_msgs) StdoutLine: {'line': b'writing bunker_msgs.egg-info/PKG-INFO\n'}
+[3.804846] (bunker_msgs) StdoutLine: {'line': b'writing dependency_links to bunker_msgs.egg-info/dependency_links.txt\n'}
+[3.805125] (bunker_msgs) StdoutLine: {'line': b'writing top-level names to bunker_msgs.egg-info/top_level.txt\n'}
+[3.805475] (bunker_msgs) StdoutLine: {'line': b"writing manifest file 'bunker_msgs.egg-info/SOURCES.txt'\n"}
+[3.808532] (bunker_msgs) StdoutLine: {'line': b"reading manifest file 'bunker_msgs.egg-info/SOURCES.txt'\n"}
+[3.809314] (bunker_msgs) StdoutLine: {'line': b"writing manifest file 'bunker_msgs.egg-info/SOURCES.txt'\n"}
+[3.813035] (-) TimerEvent: {}
+[3.866898] (bunker_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_bunker_msgs_egg\n'}
+[3.913140] (-) TimerEvent: {}
+[3.980969] (bunker_msgs) StdoutLine: {'line': b'[  4%] Built target bunker_msgs__cpp\n'}
+[3.990675] (bunker_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.994908] (bunker_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.995748] (bunker_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.013250] (-) TimerEvent: {}
+[4.118358] (-) TimerEvent: {}
+[4.166570] (bunker_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_generator_c.dir/rosidl_generator_c/bunker_msgs/msg/detail/bunker_status__functions.c.o\x1b[0m\n'}
+[4.186036] (bunker_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_generator_c.dir/rosidl_generator_c/bunker_msgs/msg/detail/bunker_actuator_state__functions.c.o\x1b[0m\n'}
+[4.192687] (bunker_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_generator_c.dir/rosidl_generator_c/bunker_msgs/msg/detail/bunker_rc_state__functions.c.o\x1b[0m\n'}
+[4.218463] (-) TimerEvent: {}
+[4.328331] (-) TimerEvent: {}
+[4.400297] (bunker_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libbunker_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.429715] (-) TimerEvent: {}
+[4.470853] (bunker_msgs) StdoutLine: {'line': b'[ 19%] Built target bunker_msgs__rosidl_generator_c\n'}
+[4.501486] (bunker_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.513804] (bunker_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.525623] (bunker_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.529818] (-) TimerEvent: {}
+[4.630366] (-) TimerEvent: {}
+[4.727555] (bunker_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bunker_msgs/msg/bunker_actuator_state__type_support.cpp.o\x1b[0m\n'}
+[4.731183] (-) TimerEvent: {}
+[4.771306] (bunker_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bunker_msgs/msg/bunker_rc_state__type_support.cpp.o\x1b[0m\n'}
+[4.787675] (bunker_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bunker_msgs/msg/bunker_status__type_support.cpp.o\x1b[0m\n'}
+[4.831292] (-) TimerEvent: {}
+[4.931799] (-) TimerEvent: {}
+[5.032352] (-) TimerEvent: {}
+[5.041383] (bunker_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bunker_msgs/msg/detail/bunker_actuator_state__type_support.cpp.o\x1b[0m\n'}
+[5.132464] (-) TimerEvent: {}
+[5.233010] (-) TimerEvent: {}
+[5.245157] (bunker_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bunker_msgs/msg/detail/dds_fastrtps/bunker_actuator_state__type_support.cpp.o\x1b[0m\n'}
+[5.333124] (-) TimerEvent: {}
+[5.348495] (bunker_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bunker_msgs/msg/detail/dds_fastrtps/bunker_rc_state__type_support.cpp.o\x1b[0m\n'}
+[5.433225] (-) TimerEvent: {}
+[5.533730] (-) TimerEvent: {}
+[5.588188] (bunker_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bunker_msgs/msg/detail/dds_fastrtps/bunker_status__type_support.cpp.o\x1b[0m\n'}
+[5.633839] (-) TimerEvent: {}
+[5.713699] (bunker_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libbunker_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.735788] (-) TimerEvent: {}
+[5.814779] (bunker_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bunker_msgs/msg/detail/bunker_actuator_state__type_support.c.o\x1b[0m\n'}
+[5.835903] (-) TimerEvent: {}
+[5.924838] (bunker_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bunker_msgs/msg/bunker_actuator_state__type_support.cpp.o\x1b[0m\n'}
+[5.934870] (bunker_msgs) StdoutLine: {'line': b'[ 46%] Built target bunker_msgs__rosidl_typesupport_cpp\n'}
+[5.935972] (-) TimerEvent: {}
+[5.957759] (bunker_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bunker_msgs/msg/detail/bunker_rc_state__type_support.c.o\x1b[0m\n'}
+[5.982840] (bunker_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bunker_msgs/msg/detail/bunker_status__type_support.c.o\x1b[0m\n'}
+[6.036109] (-) TimerEvent: {}
+[6.082256] (bunker_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bunker_msgs/msg/bunker_rc_state__type_support.cpp.o\x1b[0m\n'}
+[6.092675] (bunker_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bunker_msgs/msg/detail/bunker_rc_state__type_support.cpp.o\x1b[0m\n'}
+[6.136259] (-) TimerEvent: {}
+[6.145820] (bunker_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bunker_msgs/msg/bunker_status__type_support.cpp.o\x1b[0m\n'}
+[6.171513] (bunker_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libbunker_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.197525] (bunker_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bunker_msgs/msg/detail/bunker_status__type_support.cpp.o\x1b[0m\n'}
+[6.205612] (bunker_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libbunker_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.236376] (-) TimerEvent: {}
+[6.241312] (bunker_msgs) StdoutLine: {'line': b'[ 63%] Built target bunker_msgs__rosidl_typesupport_introspection_c\n'}
+[6.254822] (bunker_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bunker_msgs/msg/detail/bunker_rc_state__type_support_c.cpp.o\x1b[0m\n'}
+[6.277161] (bunker_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bunker_msgs/msg/detail/bunker_actuator_state__type_support_c.cpp.o\x1b[0m\n'}
+[6.284485] (bunker_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/bunker_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bunker_msgs/msg/detail/bunker_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.299741] (bunker_msgs) StdoutLine: {'line': b'[ 70%] Built target bunker_msgs__rosidl_typesupport_c\n'}
+[6.336482] (-) TimerEvent: {}
+[6.428244] (ugv_sdk) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library lib/libugv_sdk.a\x1b[0m\n'}
+[6.440252] (-) TimerEvent: {}
+[6.540843] (-) TimerEvent: {}
+[6.564802] (ugv_sdk) StdoutLine: {'line': b'[ 40%] Built target ugv_sdk\n'}
+[6.612048] (bunker_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libbunker_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.640952] (-) TimerEvent: {}
+[6.657358] (ugv_sdk) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o\x1b[0m\n'}
+[6.663661] (ugv_sdk) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o\x1b[0m\n'}
+[6.694971] (ugv_sdk) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o\x1b[0m\n'}
+[6.696994] (ugv_sdk) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o\x1b[0m\n'}
+[6.700312] (ugv_sdk) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o\x1b[0m\n'}
+[6.713138] (ugv_sdk) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o\x1b[0m\n'}
+[6.741060] (-) TimerEvent: {}
+[6.799910] (ugv_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o\x1b[0m\n'}
+[6.813437] (ugv_sdk) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o\x1b[0m\n'}
+[6.841169] (-) TimerEvent: {}
+[6.941538] (-) TimerEvent: {}
+[7.012984] (bunker_msgs) StdoutLine: {'line': b'[ 72%] Built target bunker_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.041654] (-) TimerEvent: {}
+[7.142374] (-) TimerEvent: {}
+[7.243066] (-) TimerEvent: {}
+[7.296741] (bunker_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbunker_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.343193] (-) TimerEvent: {}
+[7.443682] (-) TimerEvent: {}
+[7.466028] (bunker_msgs) StdoutLine: {'line': b'[ 74%] Built target bunker_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.543807] (-) TimerEvent: {}
+[7.644297] (-) TimerEvent: {}
+[7.706478] (bunker_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libbunker_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.744408] (-) TimerEvent: {}
+[7.762709] (ugv_sdk) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_bunker_robot\x1b[0m\n'}
+[7.844519] (-) TimerEvent: {}
+[7.945029] (ugv_sdk) StdoutLine: {'line': b'[ 74%] Built target demo_bunker_robot\n'}
+[7.945281] (-) TimerEvent: {}
+[8.021987] (bunker_msgs) StdoutLine: {'line': b'[ 76%] Built target bunker_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.045415] (-) TimerEvent: {}
+[8.134982] (bunker_msgs) StdoutLine: {'line': b'[ 76%] Built target bunker_msgs\n'}
+[8.145529] (-) TimerEvent: {}
+[8.246106] (-) TimerEvent: {}
+[8.262702] (bunker_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.346226] (-) TimerEvent: {}
+[8.446780] (-) TimerEvent: {}
+[8.547321] (-) TimerEvent: {}
+[8.648267] (-) TimerEvent: {}
+[8.753973] (-) TimerEvent: {}
+[8.854594] (-) TimerEvent: {}
+[8.955165] (-) TimerEvent: {}
+[9.055617] (-) TimerEvent: {}
+[9.156069] (-) TimerEvent: {}
+[9.256728] (-) TimerEvent: {}
+[9.357377] (-) TimerEvent: {}
+[9.402937] (ugv_sdk) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot\x1b[0m\n'}
+[9.457493] (-) TimerEvent: {}
+[9.511208] (ugv_sdk) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_protocol_detector\x1b[0m\n'}
+[9.557596] (-) TimerEvent: {}
+[9.609495] (ugv_sdk) StdoutLine: {'line': b'[ 81%] Built target demo_scout_mini_omni_robot\n'}
+[9.657713] (-) TimerEvent: {}
+[9.680110] (ugv_sdk) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_ranger_robot\x1b[0m\n'}
+[9.723356] (ugv_sdk) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_hunter_robot\x1b[0m\n'}
+[9.741928] (ugv_sdk) StdoutLine: {'line': b'[ 88%] Built target demo_protocol_detector\n'}
+[9.757829] (-) TimerEvent: {}
+[9.822981] (ugv_sdk) StdoutLine: {'line': b'[ 88%] Built target demo_ranger_robot\n'}
+[9.844609] (ugv_sdk) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_robot_version\x1b[0m\n'}
+[9.862763] (-) TimerEvent: {}
+[9.884897] (bunker_msgs) StdoutLine: {'line': b'[ 78%] Built target bunker_msgs__py\n'}
+[9.888395] (ugv_sdk) StdoutLine: {'line': b'[ 92%] Built target demo_hunter_robot\n'}
+[9.899779] (ugv_sdk) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_tracer_robot\x1b[0m\n'}
+[9.913470] (bunker_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_generator_py.dir/rosidl_generator_py/bunker_msgs/msg/_bunker_actuator_state_s.c.o\x1b[0m\n'}
+[9.913716] (bunker_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_generator_py.dir/rosidl_generator_py/bunker_msgs/msg/_bunker_rc_state_s.c.o\x1b[0m\n'}
+[9.913942] (bunker_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_generator_py.dir/rosidl_generator_py/bunker_msgs/msg/_bunker_status_s.c.o\x1b[0m\n'}
+[9.960781] (-) TimerEvent: {}
+[9.988477] (ugv_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/demo_scout_robot\x1b[0m\n'}
+[10.014653] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_robot_version\n'}
+[10.060910] (-) TimerEvent: {}
+[10.068117] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_tracer_robot\n'}
+[10.109150] (bunker_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bunker_msgs/libbunker_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[10.148779] (bunker_msgs) StdoutLine: {'line': b'[ 87%] Built target bunker_msgs__rosidl_generator_py\n'}
+[10.161020] (-) TimerEvent: {}
+[10.169225] (ugv_sdk) StdoutLine: {'line': b'[100%] Built target demo_scout_robot\n'}
+[10.173055] (bunker_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.174028] (bunker_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.174769] (bunker_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/bunker_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.192853] (ugv_sdk) CommandEnded: {'returncode': 0}
+[10.261115] (-) TimerEvent: {}
+[10.299044] (bunker_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bunker_msgs/bunker_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.324220] (bunker_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bunker_msgs/bunker_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.329920] (ugv_sdk) JobProgress: {'identifier': 'ugv_sdk', 'progress': 'install'}
+[10.330368] (ugv_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/appfre/appfre_ws/build/ugv_sdk'], 'cwd': '/home/appfre/appfre_ws/build/ugv_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/ugv_sdk'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[10.339694] (ugv_sdk) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[10.340294] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/libugv_sdk.a\n'}
+[10.341890] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk\n'}
+[10.342493] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details\n'}
+[10.342665] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base\n'}
+[10.342802] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp\n'}
+[10.342993] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp\n'}
+[10.343127] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp\n'}
+[10.343244] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp\n'}
+[10.343355] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp\n'}
+[10.343540] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp\n'}
+[10.343663] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp\n'}
+[10.343777] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1\n'}
+[10.343891] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp\n'}
+[10.344005] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp\n'}
+[10.344203] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h\n'}
+[10.344329] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface\n'}
+[10.344447] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h\n'}
+[10.344565] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp\n'}
+[10.344684] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp\n'}
+[10.344803] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp\n'}
+[10.344925] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h\n'}
+[10.346305] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp\n'}
+[10.346474] (bunker_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bunker_msgs/bunker_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.346623] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp\n'}
+[10.346740] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp\n'}
+[10.346850] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2\n'}
+[10.346959] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp\n'}
+[10.347067] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/async_port\n'}
+[10.347172] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp\n'}
+[10.347278] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp\n'}
+[10.347382] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp\n'}
+[10.347486] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/utilities\n'}
+[10.347701] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp\n'}
+[10.347919] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot\n'}
+[10.348183] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp\n'}
+[10.348581] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp\n'}
+[10.348866] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp\n'}
+[10.349554] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp\n'}
+[10.349688] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp\n'}
+[10.349803] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake\n'}
+[10.349929] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake\n'}
+[10.350056] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake\n'}
+[10.350177] (ugv_sdk) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake\n'}
+[10.350293] (ugv_sdk) CommandEnded: {'returncode': 0}
+[10.353355] (bunker_msgs) StdoutLine: {'line': b'[100%] Built target bunker_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[10.361206] (-) TimerEvent: {}
+[10.382454] (bunker_msgs) StdoutLine: {'line': b'[100%] Built target bunker_msgs__rosidl_typesupport_c__pyext\n'}
+[10.396091] (bunker_msgs) StdoutLine: {'line': b'[100%] Built target bunker_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.461305] (-) TimerEvent: {}
+[10.534633] (ugv_sdk) JobEnded: {'identifier': 'ugv_sdk', 'rc': 0}
+[10.535604] (bunker_msgs) CommandEnded: {'returncode': 0}
+[10.561430] (-) TimerEvent: {}
+[10.621803] (bunker_msgs) JobProgress: {'identifier': 'bunker_msgs', 'progress': 'install'}
+[10.622442] (bunker_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/appfre/appfre_ws/build/bunker_msgs'], 'cwd': '/home/appfre/appfre_ws/build/bunker_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/bunker_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.632034] (bunker_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.632692] (bunker_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.633102] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/ament_index/resource_index/rosidl_interfaces/bunker_msgs\n'}
+[10.645654] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_actuator_state.h\n'}
+[10.654062] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_rc_state.h\n'}
+[10.661529] (-) TimerEvent: {}
+[10.662570] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_status.h\n'}
+[10.671339] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__functions.h\n'}
+[10.679752] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__struct.h\n'}
+[10.689205] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__type_support.h\n'}
+[10.699067] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__functions.h\n'}
+[10.707389] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__struct.h\n'}
+[10.715778] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__type_support.h\n'}
+[10.724988] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__functions.h\n'}
+[10.733805] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__struct.h\n'}
+[10.742874] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__type_support.h\n'}
+[10.751336] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.760718] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/library_path.sh\n'}
+[10.761622] (-) TimerEvent: {}
+[10.769636] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/library_path.dsv\n'}
+[10.779212] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_fastrtps_c.h\n'}
+[10.788629] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_fastrtps_c.h\n'}
+[10.798902] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.808216] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.816384] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_actuator_state.hpp\n'}
+[10.825537] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_rc_state.hpp\n'}
+[10.835006] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_status.hpp\n'}
+[10.844258] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__builder.hpp\n'}
+[10.856643] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__struct.hpp\n'}
+[10.861745] (-) TimerEvent: {}
+[10.865645] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__traits.hpp\n'}
+[10.875429] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__builder.hpp\n'}
+[10.883794] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__struct.hpp\n'}
+[10.894743] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__traits.hpp\n'}
+[10.903198] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__builder.hpp\n'}
+[10.911325] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__struct.hpp\n'}
+[10.920269] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__traits.hpp\n'}
+[10.932819] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.941110] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.949760] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.958782] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.961846] (-) TimerEvent: {}
+[10.967478] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_introspection_c.h\n'}
+[10.976532] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_introspection_c.h\n'}
+[10.985624] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_introspection_c.h\n'}
+[10.994995] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.004298] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.012304] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.020451] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.028863] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/pythonpath.sh\n'}
+[11.037291] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/pythonpath.dsv\n'}
+[11.045922] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[11.054905] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.061965] (-) TimerEvent: {}
+[11.064705] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.074133] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[11.083378] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/__init__.py\n'}
+[11.092192] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[11.102449] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.113479] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.121905] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.130433] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.140044] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.148154] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/libbunker_msgs__rosidl_generator_py.so\n'}
+[11.157249] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/__init__.py\n'}
+[11.162074] (-) TimerEvent: {}
+[11.167361] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_actuator_state.py\n'}
+[11.176457] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_actuator_state_s.c\n'}
+[11.186232] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_rc_state.py\n'}
+[11.199938] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_rc_state_s.c\n'}
+[11.211264] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_status.py\n'}
+[11.220196] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_status_s.c\n'}
+[11.228928] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.229215] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.229658] (bunker_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.229982] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerActuatorState.idl\n'}
+[11.238025] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerRCState.idl\n'}
+[11.246008] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerStatus.idl\n'}
+[11.253950] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerActuatorState.msg\n'}
+[11.261817] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerRCState.msg\n'}
+[11.262134] (-) TimerEvent: {}
+[11.269510] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerStatus.msg\n'}
+[11.278025] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/ament_index/resource_index/package_run_dependencies/bunker_msgs\n'}
+[11.286153] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/ament_index/resource_index/parent_prefix_path/bunker_msgs\n'}
+[11.296753] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/ament_prefix_path.sh\n'}
+[11.304809] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/ament_prefix_path.dsv\n'}
+[11.312911] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/path.sh\n'}
+[11.321105] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/path.dsv\n'}
+[11.329241] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/local_setup.bash\n'}
+[11.337118] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/local_setup.sh\n'}
+[11.345019] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/local_setup.zsh\n'}
+[11.353211] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/local_setup.dsv\n'}
+[11.361016] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.dsv\n'}
+[11.362235] (-) TimerEvent: {}
+[11.369025] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/ament_index/resource_index/packages/bunker_msgs\n'}
+[11.376950] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[11.384980] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.394157] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.402989] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.411335] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.419275] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.427018] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.434713] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgsConfig.cmake\n'}
+[11.442294] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgsConfig-version.cmake\n'}
+[11.450462] (bunker_msgs) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.xml\n'}
+[11.458330] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_generator_c.so\n'}
+[11.458869] (bunker_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_generator_c.so" to ""\n'}
+[11.459144] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.459742] (bunker_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.459891] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.460498] (bunker_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.460626] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.461111] (bunker_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.461291] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_c.so\n'}
+[11.461691] (bunker_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_c.so" to ""\n'}
+[11.461838] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.462327] (-) TimerEvent: {}
+[11.462511] (bunker_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.462603] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_cpp.so\n'}
+[11.462967] (bunker_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[11.497833] (bunker_msgs) StdoutLine: {'line': b"Listing '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs'...\n"}
+[11.498012] (bunker_msgs) StdoutLine: {'line': b"Compiling '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/__init__.py'...\n"}
+[11.498084] (bunker_msgs) StdoutLine: {'line': b"Listing '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg'...\n"}
+[11.498150] (bunker_msgs) StdoutLine: {'line': b"Compiling '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/__init__.py'...\n"}
+[11.498225] (bunker_msgs) StdoutLine: {'line': b"Compiling '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_actuator_state.py'...\n"}
+[11.498288] (bunker_msgs) StdoutLine: {'line': b"Compiling '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_rc_state.py'...\n"}
+[11.498350] (bunker_msgs) StdoutLine: {'line': b"Compiling '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_status.py'...\n"}
+[11.502225] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_generator_py.so\n'}
+[11.502656] (bunker_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_generator_py.so" to ""\n'}
+[11.502827] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_cExport.cmake\n'}
+[11.503006] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.503154] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.503298] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.503411] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_cppExport.cmake\n'}
+[11.503544] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.503680] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.503819] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.503954] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.504098] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cExport.cmake\n'}
+[11.504247] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.504386] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.504579] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.504693] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[11.504853] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.504981] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_pyExport.cmake\n'}
+[11.505096] (bunker_msgs) StdoutLine: {'line': b'-- Installing: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.506958] (bunker_msgs) CommandEnded: {'returncode': 0}
+[11.562485] (-) TimerEvent: {}
+[11.663296] (-) TimerEvent: {}
+[11.728492] (bunker_msgs) JobEnded: {'identifier': 'bunker_msgs', 'rc': 0}
+[11.729162] (bunker_base) JobStarted: {'identifier': 'bunker_base'}
+[11.763483] (-) TimerEvent: {}
+[11.784431] (bunker_base) JobProgress: {'identifier': 'bunker_base', 'progress': 'cmake'}
+[11.784666] (bunker_base) Command: {'cmd': ['/usr/bin/cmake', '/home/appfre/appfre_ws/src/bunker_ros2/bunker_base', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/appfre/appfre_ws/install/bunker_base'], 'cwd': '/home/appfre/appfre_ws/build/bunker_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_PACKAGE_PATH', '/home/appfre/appfre_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/appfre/appfre_ws/install/bunker_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/appfre/appfre_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/appfre/appfre_ws/install/ugv_sdk/lib/pkgconfig'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/appfre/appfre_ws/install/bunker_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/bunker_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/appfre/appfre_ws/install/ugv_sdk:/home/appfre/appfre_ws/install/bunker_msgs')]), 'shell': False}
+[11.835516] (bunker_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[11.863591] (-) TimerEvent: {}
+[11.888720] (bunker_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[11.897311] (bunker_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.958690] (bunker_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[11.963664] (-) TimerEvent: {}
+[11.966138] (bunker_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[11.966447] (bunker_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[11.966966] (bunker_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[11.969785] (bunker_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.040377] (bunker_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.047833] (bunker_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.048113] (bunker_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.048646] (bunker_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.050531] (bunker_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.063772] (-) TimerEvent: {}
+[12.164024] (-) TimerEvent: {}
+[12.206894] (bunker_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[12.264138] (-) TimerEvent: {}
+[12.264988] (bunker_base) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[12.285841] (bunker_base) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[12.323741] (bunker_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.328000] (bunker_base) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.335540] (bunker_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.348183] (bunker_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.364254] (-) TimerEvent: {}
+[12.366184] (bunker_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.431782] (bunker_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.433904] (bunker_base) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.464353] (-) TimerEvent: {}
+[12.519169] (bunker_base) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.542167] (bunker_base) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.564441] (-) TimerEvent: {}
+[12.583998] (bunker_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.592968] (bunker_base) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.658189] (bunker_base) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.658630] (bunker_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.664534] (-) TimerEvent: {}
+[12.724850] (bunker_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.725849] (bunker_base) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.764641] (-) TimerEvent: {}
+[12.865036] (-) TimerEvent: {}
+[12.879493] (bunker_base) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[12.923921] (bunker_base) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[12.965138] (-) TimerEvent: {}
+[13.004797] (bunker_base) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[13.065254] (-) TimerEvent: {}
+[13.086702] (bunker_base) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[13.099995] (bunker_base) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[13.165361] (-) TimerEvent: {}
+[13.265773] (-) TimerEvent: {}
+[13.366152] (-) TimerEvent: {}
+[13.422138] (bunker_base) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[13.434494] (bunker_base) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.435738] (bunker_base) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[13.435999] (bunker_base) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.445494] (bunker_base) StdoutLine: {'line': b'-- Found bunker_msgs: 0.1.0 (/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake)\n'}
+[13.466240] (-) TimerEvent: {}
+[13.505453] (bunker_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.566359] (-) TimerEvent: {}
+[13.582010] (bunker_base) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.583244] (bunker_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.583472] (bunker_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/appfre/appfre_ws/src/bunker_ros2/bunker_base/include\n'}
+[13.583599] (bunker_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.584472] (bunker_base) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.584603] (bunker_base) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.584944] (bunker_base) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.585445] (bunker_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.585909] (bunker_base) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.586788] (bunker_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.586903] (bunker_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.587245] (bunker_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.588586] (bunker_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.603145] (bunker_base) StdoutLine: {'line': b'-- Generating done\n'}
+[13.604785] (bunker_base) StdoutLine: {'line': b'-- Build files have been written to: /home/appfre/appfre_ws/build/bunker_base\n'}
+[13.615991] (bunker_base) CommandEnded: {'returncode': 0}
+[13.616814] (bunker_base) JobProgress: {'identifier': 'bunker_base', 'progress': 'build'}
+[13.617640] (bunker_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/appfre/appfre_ws/build/bunker_base', '--', '-j8', '-l8'], 'cwd': '/home/appfre/appfre_ws/build/bunker_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_PACKAGE_PATH', '/home/appfre/appfre_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/appfre/appfre_ws/install/bunker_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/appfre/appfre_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/appfre/appfre_ws/install/ugv_sdk/lib/pkgconfig'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/appfre/appfre_ws/install/bunker_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/bunker_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/appfre/appfre_ws/install/ugv_sdk:/home/appfre/appfre_ws/install/bunker_msgs')]), 'shell': False}
+[13.664359] (bunker_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/bunker_base_node.dir/src/bunker_base_node.cpp.o\x1b[0m\n'}
+[13.664597] (bunker_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/bunker_base_node.dir/src/bunker_base_ros.cpp.o\x1b[0m\n'}
+[13.666454] (-) TimerEvent: {}
+[13.766793] (-) TimerEvent: {}
+[13.867142] (-) TimerEvent: {}
+[13.967521] (-) TimerEvent: {}
+[14.067895] (-) TimerEvent: {}
+[14.168272] (-) TimerEvent: {}
+[14.268641] (-) TimerEvent: {}
+[14.369017] (-) TimerEvent: {}
+[14.469397] (-) TimerEvent: {}
+[14.569767] (-) TimerEvent: {}
+[14.670147] (-) TimerEvent: {}
+[14.770529] (-) TimerEvent: {}
+[14.870903] (-) TimerEvent: {}
+[14.971300] (-) TimerEvent: {}
+[15.071680] (-) TimerEvent: {}
+[15.172068] (-) TimerEvent: {}
+[15.272454] (-) TimerEvent: {}
+[15.372838] (-) TimerEvent: {}
+[15.473218] (-) TimerEvent: {}
+[15.573612] (-) TimerEvent: {}
+[15.673992] (-) TimerEvent: {}
+[15.774363] (-) TimerEvent: {}
+[15.874753] (-) TimerEvent: {}
+[15.975091] (-) TimerEvent: {}
+[16.075512] (-) TimerEvent: {}
+[16.175895] (-) TimerEvent: {}
+[16.276274] (-) TimerEvent: {}
+[16.376649] (-) TimerEvent: {}
+[16.477030] (-) TimerEvent: {}
+[16.577394] (-) TimerEvent: {}
+[16.677785] (-) TimerEvent: {}
+[16.778172] (-) TimerEvent: {}
+[16.878566] (-) TimerEvent: {}
+[16.978958] (-) TimerEvent: {}
+[17.079342] (-) TimerEvent: {}
+[17.179716] (-) TimerEvent: {}
+[17.280112] (-) TimerEvent: {}
+[17.380522] (-) TimerEvent: {}
+[17.480903] (-) TimerEvent: {}
+[17.581265] (-) TimerEvent: {}
+[17.681654] (-) TimerEvent: {}
+[17.782047] (-) TimerEvent: {}
+[17.882432] (-) TimerEvent: {}
+[17.982813] (-) TimerEvent: {}
+[18.083211] (-) TimerEvent: {}
+[18.183611] (-) TimerEvent: {}
+[18.284023] (-) TimerEvent: {}
+[18.384444] (-) TimerEvent: {}
+[18.484820] (-) TimerEvent: {}
+[18.585210] (-) TimerEvent: {}
+[18.685505] (-) TimerEvent: {}
+[18.785806] (-) TimerEvent: {}
+[18.886107] (-) TimerEvent: {}
+[18.986411] (-) TimerEvent: {}
+[19.086702] (-) TimerEvent: {}
+[19.187073] (-) TimerEvent: {}
+[19.287436] (-) TimerEvent: {}
+[19.387808] (-) TimerEvent: {}
+[19.488210] (-) TimerEvent: {}
+[19.588600] (-) TimerEvent: {}
+[19.688989] (-) TimerEvent: {}
+[19.789397] (-) TimerEvent: {}
+[19.889801] (-) TimerEvent: {}
+[19.990201] (-) TimerEvent: {}
+[20.090601] (-) TimerEvent: {}
+[20.190978] (-) TimerEvent: {}
+[20.291359] (-) TimerEvent: {}
+[20.391651] (-) TimerEvent: {}
+[20.491943] (-) TimerEvent: {}
+[20.592238] (-) TimerEvent: {}
+[20.692529] (-) TimerEvent: {}
+[20.792817] (-) TimerEvent: {}
+[20.893089] (-) TimerEvent: {}
+[20.993385] (-) TimerEvent: {}
+[21.093682] (-) TimerEvent: {}
+[21.193978] (-) TimerEvent: {}
+[21.294294] (-) TimerEvent: {}
+[21.394589] (-) TimerEvent: {}
+[21.494901] (-) TimerEvent: {}
+[21.595190] (-) TimerEvent: {}
+[21.695487] (-) TimerEvent: {}
+[21.795786] (-) TimerEvent: {}
+[21.896079] (-) TimerEvent: {}
+[21.996377] (-) TimerEvent: {}
+[22.096663] (-) TimerEvent: {}
+[22.196952] (-) TimerEvent: {}
+[22.297244] (-) TimerEvent: {}
+[22.397545] (-) TimerEvent: {}
+[22.497834] (-) TimerEvent: {}
+[22.598122] (-) TimerEvent: {}
+[22.698412] (-) TimerEvent: {}
+[22.798700] (-) TimerEvent: {}
+[22.898990] (-) TimerEvent: {}
+[22.999286] (-) TimerEvent: {}
+[23.099585] (-) TimerEvent: {}
+[23.199881] (-) TimerEvent: {}
+[23.300185] (-) TimerEvent: {}
+[23.400508] (-) TimerEvent: {}
+[23.500804] (-) TimerEvent: {}
+[23.557784] (bunker_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bunker_base_node\x1b[0m\n'}
+[23.600924] (-) TimerEvent: {}
+[23.701326] (-) TimerEvent: {}
+[23.801686] (-) TimerEvent: {}
+[23.902010] (-) TimerEvent: {}
+[24.002310] (-) TimerEvent: {}
+[24.029252] (bunker_base) StdoutLine: {'line': b'[100%] Built target bunker_base_node\n'}
+[24.039964] (bunker_base) CommandEnded: {'returncode': 0}
+[24.063785] (bunker_base) JobProgress: {'identifier': 'bunker_base', 'progress': 'install'}
+[24.064084] (bunker_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/appfre/appfre_ws/build/bunker_base'], 'cwd': '/home/appfre/appfre_ws/build/bunker_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'appfre'), ('XDG_SESSION_TYPE', 'wayland'), ('ROS_PACKAGE_PATH', '/home/appfre/appfre_ws/install/ugv_sdk/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/appfre/appfre_ws/install/bunker_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/appfre'), ('OLDPWD', '/home/appfre/appfre_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '138816'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'appfre'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('PKG_CONFIG_PATH', '/home/appfre/appfre_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/appfre/appfre_ws/install/ugv_sdk/lib/pkgconfig'), ('USERNAME', 'appfre'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/appfreBase:@/tmp/.ICE-unix/1500,unix/appfreBase:/tmp/.ICE-unix/1500'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9088ad9_32ff_48ef_b831_f373ead2426a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VXNRI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1453'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/appfre/appfre_ws/install/bunker_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/appfre/appfre_ws/build/bunker_base'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/appfre/appfre_ws/install/ugv_sdk:/home/appfre/appfre_ws/install/bunker_msgs')]), 'shell': False}
+[24.071464] (bunker_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.071838] (bunker_base) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.072140] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/lib/bunker_base/bunker_base_node\n'}
+[24.080230] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base//launch/bunker_base.launch.py\n'}
+[24.088018] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/ament_index/resource_index/package_run_dependencies/bunker_base\n'}
+[24.095395] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/ament_index/resource_index/parent_prefix_path/bunker_base\n'}
+[24.102432] (-) TimerEvent: {}
+[24.103049] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/environment/ament_prefix_path.sh\n'}
+[24.110711] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/environment/ament_prefix_path.dsv\n'}
+[24.118401] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/environment/path.sh\n'}
+[24.125907] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/environment/path.dsv\n'}
+[24.134978] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/local_setup.bash\n'}
+[24.143452] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/local_setup.sh\n'}
+[24.150731] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/local_setup.zsh\n'}
+[24.158009] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/local_setup.dsv\n'}
+[24.165293] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.dsv\n'}
+[24.172551] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/ament_index/resource_index/packages/bunker_base\n'}
+[24.180118] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/cmake/bunker_baseConfig.cmake\n'}
+[24.187775] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/cmake/bunker_baseConfig-version.cmake\n'}
+[24.195193] (bunker_base) StdoutLine: {'line': b'-- Symlinking: /home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.xml\n'}
+[24.202526] (-) TimerEvent: {}
+[24.204013] (bunker_base) CommandEnded: {'returncode': 0}
+[24.302734] (-) TimerEvent: {}
+[24.342219] (bunker_base) JobEnded: {'identifier': 'bunker_base', 'rc': 0}
+[24.343069] (-) EventReactorShutdown: {}

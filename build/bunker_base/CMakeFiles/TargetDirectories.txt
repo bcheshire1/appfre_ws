@@ -1,0 +1,10 @@
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/uninstall.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/bunker_base_uninstall.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/bunker_base_node.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/test.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/edit_cache.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/rebuild_cache.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/list_install_components.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/install.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/install/local.dir
+/home/appfre/appfre_ws/build/bunker_base/CMakeFiles/install/strip.dir

@@ -1,0 +1,422 @@
+[0.896s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.896s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f247d36bf40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f247d36a500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f247d36a500>>)
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.939s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.940s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/appfre/appfre_ws'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extension 'ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extensions ['cmake', 'python']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extension 'cmake'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extension 'python'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extensions ['python_setup_py']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/PiGI Counter) by extension 'python_setup_py'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extensions ['ros']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_mini) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bunker_mini' with type 'ros.ament_cmake' and name 'bunker_mini'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extension 'ros'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extensions ['cmake', 'python']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extension 'cmake'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extension 'python'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extensions ['python_setup_py']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2) by extension 'python_setup_py'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extensions ['colcon_meta']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_base) by extension 'ros'
+[0.957s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bunker_ros2/bunker_base' with type 'ros.ament_cmake' and name 'bunker_base'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/bunker_ros2/bunker_msgs) by extension 'ros'
+[0.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bunker_ros2/bunker_msgs' with type 'ros.ament_cmake' and name 'bunker_msgs'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/radiacode) by extension 'ros'
+[0.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/radiacode' with type 'ros.ament_cmake' and name 'radiacode'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore_ament_install'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_pkg']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ros'
+[0.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.073s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 322 installed packages in /opt/ros/humble
+[1.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'cmake_target' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'cmake_clean_cache' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'cmake_clean_first' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'cmake_force_configure' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'ament_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'catkin_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'bunker_mini' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.167s] DEBUG:colcon.colcon_core.verb:Building package 'bunker_mini' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/appfre/appfre_ws/build/bunker_mini', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/appfre/appfre_ws/install/bunker_mini', 'merge_install': False, 'path': '/home/appfre/appfre_ws/src/bunker_mini', 'symlink_install': True, 'test_result_base': None}
+[1.180s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'cmake_args' from command line to 'None'
+[1.180s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'cmake_target' from command line to 'None'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.181s] Level 5:colcon.colcon_core.verb:set package 'bunker_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.181s] DEBUG:colcon.colcon_core.verb:Building package 'bunker_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/appfre/appfre_ws/build/bunker_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/appfre/appfre_ws/install/bunker_msgs', 'merge_install': False, 'path': '/home/appfre/appfre_ws/src/bunker_ros2/bunker_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'cmake_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'cmake_target' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'cmake_clean_cache' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'cmake_clean_first' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'cmake_force_configure' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'ament_cmake_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'catkin_cmake_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'radiacode' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.194s] DEBUG:colcon.colcon_core.verb:Building package 'radiacode' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/appfre/appfre_ws/build/radiacode', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/appfre/appfre_ws/install/radiacode', 'merge_install': False, 'path': '/home/appfre/appfre_ws/src/radiacode', 'symlink_install': True, 'test_result_base': None}
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.209s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.209s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/appfre/appfre_ws/build/ugv_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/appfre/appfre_ws/install/ugv_sdk', 'merge_install': False, 'path': '/home/appfre/appfre_ws/src/ugv_sdk', 'symlink_install': True, 'test_result_base': None}
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'cmake_args' from command line to 'None'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'cmake_target' from command line to 'None'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'cmake_clean_cache' from command line to 'False'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'cmake_clean_first' from command line to 'False'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'cmake_force_configure' from command line to 'False'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'ament_cmake_args' from command line to 'None'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'catkin_cmake_args' from command line to 'None'
+[1.222s] Level 5:colcon.colcon_core.verb:set package 'bunker_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.222s] DEBUG:colcon.colcon_core.verb:Building package 'bunker_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/appfre/appfre_ws/build/bunker_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/appfre/appfre_ws/install/bunker_base', 'merge_install': False, 'path': '/home/appfre/appfre_ws/src/bunker_ros2/bunker_base', 'symlink_install': True, 'test_result_base': None}
+[1.235s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/appfre/appfre_ws/src/bunker_ros2/bunker_msgs' with build type 'ament_cmake'
+[1.250s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/appfre/appfre_ws/src/bunker_ros2/bunker_msgs'
+[1.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.296s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/appfre/appfre_ws/src/ugv_sdk' with build type 'catkin'
+[1.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/appfre/appfre_ws/src/ugv_sdk'
+[1.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/appfre/appfre_ws/src/bunker_mini' with build type 'ament_cmake'
+[1.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/appfre/appfre_ws/src/bunker_mini'
+[1.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.384s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/appfre/appfre_ws/src/radiacode' with build type 'ament_cmake'
+[1.384s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/appfre/appfre_ws/src/radiacode'
+[1.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/bunker_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_msgs -- -j8 -l8
+[1.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/ugv_sdk': /usr/bin/cmake --build /home/appfre/appfre_ws/build/ugv_sdk -- -j8 -l8
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_mini -- -j8 -l8
+[1.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/radiacode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/radiacode -- -j8 -l8
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_mini -- -j8 -l8
+[1.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/radiacode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/radiacode -- -j8 -l8
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/bunker_mini': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_mini
+[1.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/radiacode': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/radiacode
+[1.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bunker_mini)
+[1.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/bunker_mini' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_mini
+[1.582s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini' for CMake module files
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini' for CMake config files
+[1.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_mini', 'cmake_prefix_path')
+[1.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.ps1'
+[1.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.dsv'
+[1.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.sh'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/bin'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/lib/pkgconfig/bunker_mini.pc'
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/lib/python3.10/site-packages'
+[1.643s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/bin'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.ps1'
+[1.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.sh'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.bash'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.zsh'
+[1.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/bunker_mini/share/colcon-core/packages/bunker_mini)
+[1.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radiacode)
+[1.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/radiacode' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/radiacode
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode' for CMake module files
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode' for CMake config files
+[1.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('radiacode', 'cmake_prefix_path')
+[1.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/radiacode/share/radiacode/hook/cmake_prefix_path.ps1'
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/radiacode/share/radiacode/hook/cmake_prefix_path.dsv'
+[1.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/radiacode/share/radiacode/hook/cmake_prefix_path.sh'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode/bin'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode/lib/pkgconfig/radiacode.pc'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode/lib/python3.10/site-packages'
+[1.721s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode/bin'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.ps1'
+[1.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.dsv'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.sh'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.bash'
+[1.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.zsh'
+[1.736s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/radiacode/share/colcon-core/packages/radiacode)
+[1.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bunker_mini)
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini' for CMake module files
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini' for CMake config files
+[1.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_mini', 'cmake_prefix_path')
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.ps1'
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.dsv'
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/hook/cmake_prefix_path.sh'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/bin'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/lib/pkgconfig/bunker_mini.pc'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/lib/python3.10/site-packages'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_mini/bin'
+[1.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.ps1'
+[1.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.dsv'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.sh'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.bash'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_mini/share/bunker_mini/package.zsh'
+[1.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/bunker_mini/share/colcon-core/packages/bunker_mini)
+[1.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/appfre/appfre_ws/build/ugv_sdk -- -j8 -l8
+[1.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radiacode)
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode' for CMake module files
+[1.836s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode' for CMake config files
+[1.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('radiacode', 'cmake_prefix_path')
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/radiacode/share/radiacode/hook/cmake_prefix_path.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/radiacode/share/radiacode/hook/cmake_prefix_path.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/radiacode/share/radiacode/hook/cmake_prefix_path.sh'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode/bin'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode/lib/pkgconfig/radiacode.pc'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode/lib/python3.10/site-packages'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/radiacode/bin'
+[1.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.ps1'
+[1.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.sh'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.bash'
+[1.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/radiacode/share/radiacode/package.zsh'
+[1.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/radiacode/share/colcon-core/packages/radiacode)
+[1.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/bunker_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_msgs -- -j8 -l8
+[1.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/ugv_sdk': /usr/bin/cmake --install /home/appfre/appfre_ws/build/ugv_sdk
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/appfre/appfre_ws/build/ugv_sdk
+[1.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'ros_package_path')
+[1.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.ps1'
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.dsv'
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.sh'
+[2.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path')
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.ps1'
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.dsv'
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.sh'
+[2.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path_multiarch')
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.ps1'
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.dsv'
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.sh'
+[2.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_sdk)
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/ugv_sdk' for CMake module files
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/ugv_sdk' for CMake config files
+[2.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'cmake_prefix_path')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.ps1'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/ugv_sdk/lib'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/ugv_sdk/bin'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/ugv_sdk/lib/pkgconfig/ugv_sdk.pc'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/ugv_sdk/lib/python3.10/site-packages'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/ugv_sdk/bin'
+[2.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/package.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/package.dsv'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/package.sh'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/package.bash'
+[2.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/ugv_sdk/share/ugv_sdk/package.zsh'
+[2.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/ugv_sdk/share/colcon-core/packages/ugv_sdk)
+[2.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/bunker_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_msgs
+[2.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bunker_msgs)
+[2.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/bunker_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_msgs
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs' for CMake module files
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs' for CMake config files
+[2.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_msgs', 'cmake_prefix_path')
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/cmake_prefix_path.ps1'
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/cmake_prefix_path.dsv'
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/cmake_prefix_path.sh'
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/lib'
+[2.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_msgs', 'ld_library_path_lib')
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/ld_library_path_lib.ps1'
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/ld_library_path_lib.dsv'
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/ld_library_path_lib.sh'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/bin'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/lib/pkgconfig/bunker_msgs.pc'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/lib/python3.10/site-packages'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/bin'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.ps1'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.dsv'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.sh'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.bash'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.zsh'
+[2.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/bunker_msgs/share/colcon-core/packages/bunker_msgs)
+[2.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bunker_msgs)
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs' for CMake module files
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs' for CMake config files
+[2.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_msgs', 'cmake_prefix_path')
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/cmake_prefix_path.ps1'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/cmake_prefix_path.dsv'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/cmake_prefix_path.sh'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/lib'
+[2.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_msgs', 'ld_library_path_lib')
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/ld_library_path_lib.ps1'
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/ld_library_path_lib.dsv'
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/hook/ld_library_path_lib.sh'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/bin'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/lib/pkgconfig/bunker_msgs.pc'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/lib/python3.10/site-packages'
+[2.427s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_msgs/bin'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.ps1'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.dsv'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.sh'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.bash'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.zsh'
+[2.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/bunker_msgs/share/colcon-core/packages/bunker_msgs)
+[2.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/appfre/appfre_ws/src/bunker_ros2/bunker_base' with build type 'ament_cmake'
+[2.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/appfre/appfre_ws/src/bunker_ros2/bunker_base'
+[2.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/bunker_base': AMENT_PREFIX_PATH=/home/appfre/appfre_ws/install/bunker_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/appfre/appfre_ws/install/ugv_sdk:/home/appfre/appfre_ws/install/bunker_msgs LD_LIBRARY_PATH=/home/appfre/appfre_ws/install/bunker_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/appfre/appfre_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/appfre/appfre_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/appfre/appfre_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_base -- -j8 -l8
+[2.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/bunker_base' returned '0': AMENT_PREFIX_PATH=/home/appfre/appfre_ws/install/bunker_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/appfre/appfre_ws/install/ugv_sdk:/home/appfre/appfre_ws/install/bunker_msgs LD_LIBRARY_PATH=/home/appfre/appfre_ws/install/bunker_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/appfre/appfre_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/appfre/appfre_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/appfre/appfre_ws/install/ugv_sdk/share /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_base -- -j8 -l8
+[2.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/appfre/appfre_ws/build/bunker_base': AMENT_PREFIX_PATH=/home/appfre/appfre_ws/install/bunker_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/appfre/appfre_ws/install/ugv_sdk:/home/appfre/appfre_ws/install/bunker_msgs LD_LIBRARY_PATH=/home/appfre/appfre_ws/install/bunker_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/appfre/appfre_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/appfre/appfre_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/appfre/appfre_ws/install/ugv_sdk/share /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_base
+[2.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bunker_base)
+[2.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/appfre/appfre_ws/build/bunker_base' returned '0': AMENT_PREFIX_PATH=/home/appfre/appfre_ws/install/bunker_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/humble:/home/appfre/appfre_ws/install/ugv_sdk:/home/appfre/appfre_ws/install/bunker_msgs LD_LIBRARY_PATH=/home/appfre/appfre_ws/install/bunker_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/appfre/appfre_ws/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/appfre/appfre_ws/install/ugv_sdk/lib/pkgconfig PYTHONPATH=/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/appfre/appfre_ws/install/ugv_sdk/share /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_base
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base' for CMake module files
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base' for CMake config files
+[2.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_base', 'cmake_prefix_path')
+[2.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/hook/cmake_prefix_path.ps1'
+[2.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/hook/cmake_prefix_path.dsv'
+[2.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/hook/cmake_prefix_path.sh'
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/lib'
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/bin'
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/lib/pkgconfig/bunker_base.pc'
+[2.642s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/lib/python3.10/site-packages'
+[2.642s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/bin'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.ps1'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.dsv'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.sh'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.bash'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.zsh'
+[2.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/bunker_base/share/colcon-core/packages/bunker_base)
+[2.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bunker_base)
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base' for CMake module files
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base' for CMake config files
+[2.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('bunker_base', 'cmake_prefix_path')
+[2.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/hook/cmake_prefix_path.ps1'
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/hook/cmake_prefix_path.dsv'
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/hook/cmake_prefix_path.sh'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/lib'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/bin'
+[2.722s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/lib/pkgconfig/bunker_base.pc'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/lib/python3.10/site-packages'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/appfre/appfre_ws/install/bunker_base/bin'
+[2.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.dsv'
+[2.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.sh'
+[2.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.bash'
+[2.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.zsh'
+[2.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/appfre/appfre_ws/install/bunker_base/share/colcon-core/packages/bunker_base)
+[2.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.739s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.758s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.768s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.783s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/appfre/appfre_ws/install/local_setup.ps1'
+[2.784s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/appfre/appfre_ws/install/_local_setup_util_ps1.py'
+[2.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/appfre/appfre_ws/install/setup.ps1'
+[2.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/appfre/appfre_ws/install/local_setup.sh'
+[2.801s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/appfre/appfre_ws/install/_local_setup_util_sh.py'
+[2.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/appfre/appfre_ws/install/setup.sh'
+[2.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/appfre/appfre_ws/install/local_setup.bash'
+[2.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/appfre/appfre_ws/install/setup.bash'
+[2.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/appfre/appfre_ws/install/local_setup.zsh'
+[2.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/appfre/appfre_ws/install/setup.zsh'

@@ -1,0 +1,17 @@
+/home/appfre/appfre_ws/install/bunker_base/lib/bunker_base/bunker_base_node
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base//launch/bunker_base.launch.py
+/home/appfre/appfre_ws/install/bunker_base/share/ament_index/resource_index/package_run_dependencies/bunker_base
+/home/appfre/appfre_ws/install/bunker_base/share/ament_index/resource_index/parent_prefix_path/bunker_base
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/environment/ament_prefix_path.sh
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/environment/ament_prefix_path.dsv
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/environment/path.sh
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/environment/path.dsv
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/local_setup.bash
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/local_setup.sh
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/local_setup.zsh
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/local_setup.dsv
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.dsv
+/home/appfre/appfre_ws/install/bunker_base/share/ament_index/resource_index/packages/bunker_base
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/cmake/bunker_baseConfig.cmake
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/cmake/bunker_baseConfig-version.cmake
+/home/appfre/appfre_ws/install/bunker_base/share/bunker_base/package.xml

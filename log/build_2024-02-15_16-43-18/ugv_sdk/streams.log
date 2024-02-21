@@ -1,0 +1,120 @@
+[0.156s] Invoking command in '/home/appfre/appfre_ws/build/ugv_sdk': /usr/bin/cmake /home/appfre/appfre_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/appfre/appfre_ws/install/ugv_sdk
+[0.209s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.354s] -- Detecting C compile features - done
+[0.357s] -- Detecting CXX compiler ABI info
+[0.444s] -- Detecting CXX compiler ABI info - done
+[0.453s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.453s] -- Detecting CXX compile features
+[0.454s] -- Detecting CXX compile features - done
+[0.455s] -- Build package with cmake
+[0.455s] -- Setting build type to 'Release' as none was specified.
+[0.455s] -- Tests will not be built
+[0.458s] -- Looking for pthread.h
+[0.532s] -- Looking for pthread.h - found
+[0.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.604s] -- Found Threads: TRUE  
+[0.607s] -- Project will be installed to /home/appfre/appfre_ws/install/ugv_sdk with 'make install'
+[0.607s] --  - To install LIB components to /home/appfre/appfre_ws/install/ugv_sdk/lib
+[0.607s] --  - To install BIN components to /home/appfre/appfre_ws/install/ugv_sdk/bin
+[0.607s] --  - To install INCLUDE components to /home/appfre/appfre_ws/install/ugv_sdk/include
+[0.607s] --  - To install CMAKE components to /home/appfre/appfre_ws/install/ugv_sdk/share/cmake/ugv_sdk
+[0.613s] -- Configuring done
+[0.628s] -- Generating done
+[0.629s] [33mCMake Warning:
+[0.630s]   Manually-specified variables were not used by the project:
+[0.630s] 
+[0.630s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.630s]     CATKIN_SYMLINK_INSTALL
+[0.630s] 
+[0.630s] [0m
+[0.630s] -- Build files have been written to: /home/appfre/appfre_ws/build/ugv_sdk
+[0.633s] Invoked command in '/home/appfre/appfre_ws/build/ugv_sdk' returned '0': /usr/bin/cmake /home/appfre/appfre_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/appfre/appfre_ws/install/ugv_sdk
+[0.635s] Invoking command in '/home/appfre/appfre_ws/build/ugv_sdk': /usr/bin/cmake --build /home/appfre/appfre_ws/build/ugv_sdk -- -j8 -l8
+[0.683s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[0.683s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[0.685s] [ 11%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[0.685s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[0.687s] [ 18%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[0.689s] [ 22%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[0.693s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[0.698s] [ 29%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[0.969s] [ 33%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[1.038s] [ 37%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+[6.369s] [ 40%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[6.506s] [ 40%] Built target ugv_sdk
+[6.599s] [ 44%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[6.605s] [ 48%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[6.636s] [ 51%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[6.638s] [ 55%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[6.642s] [ 59%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[6.654s] [ 62%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[6.741s] [ 66%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[6.755s] [ 70%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[7.704s] [ 74%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[7.886s] [ 74%] Built target demo_bunker_robot
+[9.344s] [ 77%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[9.452s] [ 81%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[9.551s] [ 81%] Built target demo_scout_mini_omni_robot
+[9.621s] [ 85%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[9.665s] [ 88%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[9.683s] [ 88%] Built target demo_protocol_detector
+[9.765s] [ 88%] Built target demo_ranger_robot
+[9.786s] [ 92%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[9.830s] [ 92%] Built target demo_hunter_robot
+[9.841s] [ 96%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[9.930s] [100%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[9.956s] [100%] Built target demo_robot_version
+[10.009s] [100%] Built target demo_tracer_robot
+[10.110s] [100%] Built target demo_scout_robot
+[10.134s] Invoked command in '/home/appfre/appfre_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/appfre/appfre_ws/build/ugv_sdk -- -j8 -l8
+[10.272s] Invoking command in '/home/appfre/appfre_ws/build/ugv_sdk': /usr/bin/cmake --install /home/appfre/appfre_ws/build/ugv_sdk
+[10.281s] -- Install configuration: "Release"
+[10.281s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/libugv_sdk.a
+[10.283s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk
+[10.284s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details
+[10.284s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[10.284s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[10.284s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[10.284s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[10.284s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[10.284s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[10.285s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[10.285s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[10.285s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[10.285s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[10.285s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[10.285s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[10.285s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface
+[10.286s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[10.286s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[10.286s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[10.286s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[10.286s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[10.287s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[10.288s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[10.288s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[10.288s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[10.288s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[10.288s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/async_port
+[10.288s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[10.288s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[10.288s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[10.289s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/utilities
+[10.289s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[10.289s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[10.290s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[10.290s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[10.290s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[10.291s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[10.291s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[10.291s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[10.291s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[10.291s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[10.291s] -- Installing: /home/appfre/appfre_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[10.292s] Invoked command in '/home/appfre/appfre_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/appfre/appfre_ws/build/ugv_sdk

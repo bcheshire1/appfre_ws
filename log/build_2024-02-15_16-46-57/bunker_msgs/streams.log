@@ -1,0 +1,161 @@
+[0.181s] Invoking command in '/home/appfre/appfre_ws/build/bunker_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_msgs -- -j8 -l8
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_generator_c[0m
+[0.235s] [ 10%] Built target bunker_msgs__rosidl_generator_c
+[0.235s] [ 12%] Built target bunker_msgs__cpp
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.255s] [ 12%] Built target ament_cmake_python_symlink_bunker_msgs
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_c[0m
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_cpp[0m
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_introspection_c[0m
+[0.277s] [ 27%] Built target bunker_msgs__rosidl_typesupport_fastrtps_c
+[0.277s] [ 34%] Built target bunker_msgs__rosidl_typesupport_fastrtps_cpp
+[0.281s] [ 51%] Built target bunker_msgs__rosidl_typesupport_cpp
+[0.281s] [ 55%] Built target bunker_msgs__rosidl_typesupport_c
+[0.282s] [ 65%] Built target bunker_msgs__rosidl_typesupport_introspection_cpp
+[0.288s] [ 76%] Built target bunker_msgs__rosidl_typesupport_introspection_c
+[0.312s] [ 76%] Built target bunker_msgs
+[0.334s] [ 78%] Built target bunker_msgs__py
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_generator_py[0m
+[0.364s] [ 87%] Built target bunker_msgs__rosidl_generator_py
+[0.405s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.405s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_c__pyext[0m
+[0.405s] [35m[1mConsolidate compiler generated dependencies of target bunker_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.417s] [ 91%] Built target bunker_msgs__rosidl_typesupport_introspection_c__pyext
+[0.424s] [100%] Built target bunker_msgs__rosidl_typesupport_c__pyext
+[0.425s] [100%] Built target bunker_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.600s] running egg_info
+[0.601s] writing bunker_msgs.egg-info/PKG-INFO
+[0.601s] writing dependency_links to bunker_msgs.egg-info/dependency_links.txt
+[0.602s] writing top-level names to bunker_msgs.egg-info/top_level.txt
+[0.603s] reading manifest file 'bunker_msgs.egg-info/SOURCES.txt'
+[0.603s] writing manifest file 'bunker_msgs.egg-info/SOURCES.txt'
+[0.633s] [100%] Built target ament_cmake_python_build_bunker_msgs_egg
+[0.646s] Invoked command in '/home/appfre/appfre_ws/build/bunker_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/appfre/appfre_ws/build/bunker_msgs -- -j8 -l8
+[0.856s] Invoking command in '/home/appfre/appfre_ws/build/bunker_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_msgs
+[0.863s] -- Install configuration: ""
+[0.863s] -- Execute custom install script
+[0.863s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/ament_index/resource_index/rosidl_interfaces/bunker_msgs
+[0.864s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_actuator_state.h
+[0.864s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_rc_state.h
+[0.865s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_status.h
+[0.865s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__functions.h
+[0.865s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__struct.h
+[0.865s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__type_support.h
+[0.865s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__functions.h
+[0.865s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__struct.h
+[0.866s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__type_support.h
+[0.866s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__functions.h
+[0.866s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__struct.h
+[0.866s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__type_support.h
+[0.866s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.866s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/library_path.sh
+[0.867s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/library_path.dsv
+[0.867s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_fastrtps_c.h
+[0.867s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_fastrtps_c.h
+[0.867s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_fastrtps_c.h
+[0.868s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.868s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_actuator_state.hpp
+[0.868s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_rc_state.hpp
+[0.868s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/bunker_status.hpp
+[0.869s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__builder.hpp
+[0.869s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__struct.hpp
+[0.869s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__traits.hpp
+[0.869s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__builder.hpp
+[0.869s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__struct.hpp
+[0.870s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__traits.hpp
+[0.870s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__builder.hpp
+[0.870s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__struct.hpp
+[0.870s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__traits.hpp
+[0.871s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.871s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.871s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.872s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.872s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_introspection_c.h
+[0.872s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_introspection_c.h
+[0.872s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_introspection_c.h
+[0.872s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.873s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_actuator_state__rosidl_typesupport_introspection_cpp.hpp
+[0.873s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_rc_state__rosidl_typesupport_introspection_cpp.hpp
+[0.873s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/include/bunker_msgs/bunker_msgs/msg/detail/bunker_status__rosidl_typesupport_introspection_cpp.hpp
+[0.873s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/pythonpath.sh
+[0.874s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/pythonpath.dsv
+[0.874s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[0.874s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.874s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.874s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[0.875s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/__init__.py
+[0.875s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_c.c
+[0.875s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.875s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/_bunker_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.876s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.876s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.876s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.876s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/libbunker_msgs__rosidl_generator_py.so
+[0.876s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/__init__.py
+[0.877s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_actuator_state.py
+[0.877s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_actuator_state_s.c
+[0.877s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_rc_state.py
+[0.877s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_rc_state_s.c
+[0.877s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_status.py
+[0.878s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg/_bunker_status_s.c
+[0.878s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.878s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.879s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/bunker_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.879s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerActuatorState.idl
+[0.879s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerRCState.idl
+[0.879s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerStatus.idl
+[0.880s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerActuatorState.msg
+[0.880s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerRCState.msg
+[0.880s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/msg/BunkerStatus.msg
+[0.880s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/ament_index/resource_index/package_run_dependencies/bunker_msgs
+[0.881s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/ament_index/resource_index/parent_prefix_path/bunker_msgs
+[0.881s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/ament_prefix_path.sh
+[0.881s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/ament_prefix_path.dsv
+[0.881s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/path.sh
+[0.881s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/environment/path.dsv
+[0.882s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/local_setup.bash
+[0.882s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/local_setup.sh
+[0.882s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/local_setup.zsh
+[0.882s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/local_setup.dsv
+[0.883s] -- Symlinking: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.dsv
+[0.891s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/ament_index/resource_index/packages/bunker_msgs
+[0.891s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake-extras.cmake
+[0.891s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.891s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.892s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.892s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.892s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.892s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.893s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgsConfig.cmake
+[0.893s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgsConfig-version.cmake
+[0.893s] -- Up-to-date symlink: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/package.xml
+[0.893s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_generator_c.so
+[0.894s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_c.so
+[0.894s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.895s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_c.so
+[0.895s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_c.so
+[0.895s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_introspection_cpp.so
+[0.896s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_typesupport_cpp.so
+[0.940s] Listing '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs'...
+[0.940s] Listing '/home/appfre/appfre_ws/install/bunker_msgs/local/lib/python3.10/dist-packages/bunker_msgs/msg'...
+[0.946s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/lib/libbunker_msgs__rosidl_generator_py.so
+[0.949s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_cExport.cmake
+[0.949s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.949s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.949s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.949s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_cppExport.cmake
+[0.949s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.949s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.949s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.950s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.950s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cExport.cmake
+[0.950s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.950s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.950s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.950s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cppExport.cmake
+[0.950s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/bunker_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.950s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_pyExport.cmake
+[0.951s] -- Up-to-date: /home/appfre/appfre_ws/install/bunker_msgs/share/bunker_msgs/cmake/export_bunker_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.951s] Invoked command in '/home/appfre/appfre_ws/build/bunker_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/appfre/appfre_ws/build/bunker_msgs

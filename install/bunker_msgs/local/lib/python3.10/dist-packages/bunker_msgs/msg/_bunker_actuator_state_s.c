@@ -1,0 +1,1 @@
+/home/appfre/appfre_ws/build/bunker_msgs/rosidl_generator_py/bunker_msgs/msg/_bunker_actuator_state_s.c
